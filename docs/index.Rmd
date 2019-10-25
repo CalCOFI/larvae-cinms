@@ -23,7 +23,7 @@ library(glue)
 library(sf)
 library(mapview)
 
-dir_img <- "/Users/bbest/Gdrive Ecoquants/projects/nms-web/cinms/Images"
+dir_img <- "/Volumes/GoogleDrive/My Drive/projects/nms-web/cinms/Images"
 
 # functions ----
 convert_fig <- function(fig_beg, fig_end, redo=F){
@@ -191,24 +191,29 @@ only sites in the Channel Islands National Marine Sanctuary region (top) and all
  
 
 
-## ERDDAP Analysis
+## ERDDAP Extraction
 
 - [ERDDAP - Search: calcofi](https://coastwatch.pfeg.noaa.gov/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=calcofi): 50 matching datasets
 - R package [rerddap](https://github.com/ropensci/rerddap)
   - [Using rerddap](https://cran.r-project.org/web/packages/rerddap/vignettes/Using_rerddap.html)
   - [Environmental drivers of small pelagic fish](https://rmendels.github.io/pices2017.nb.html)
   
-```{r, eval=F}
+  
+### Spatial filter
+
+```{r}
 library(rerddap)
 library(lubridate)
+library(readr)
 #library(tictoc)
 here = here::here
 
+d_lrvcntSBtoSC_csv <- here("data/d_lrvcntSBtoSC.csv")
 
 stns <- tabledap('erdCalCOFIstns')
 stns <- stns %>% 
   arrange(cruise, ship_code, order_occupied)
-View(stns)
+#View(stns)
 
 ## pull in data taken from erddap
 ## this file came from the link: CalCOFI Larvae Counts, Scientific Names SB to SC
@@ -224,52 +229,62 @@ info("erdCalCOFIlrvcntSBtoSC")
 #flds <- c("calcofi_species_code", "station", "line", "longitude", "latitude", "net_location")
 #d_lrvcntSBtoSC <- tabledap("erdCalCOFIlrvcntSBtoSC", fields=flds) #%>% 
 #tic()
-d_lrvcntSBtoSC <- tabledap("erdCalCOFIlrvcntSBtoSC") # 23.3 sec
-#toc()
-# d_lrvcntSBtoSC_0 <- d_lrvcntSBtoSC
-# d_lrvcntSBtoSC <- d_lrvcntSBtoSC_0
 
-d_lrvcntSBtoSC <- d_lrvcntSBtoSC %>% 
-  as_tibble() %>% 
-  mutate(
-    stn_cruise_ship_order = glue("{cruise}-{ship_code}-{order_occupied}"),
-    lon   = as.numeric(longitude), # rng: -179.82, -77.23
-    lat   = as.numeric(latitude),  # rng:    0.01,  51.09
-    dtime = as_datetime(time),
-    line_station = glue("{line} {station}")) %>% 
-  select(-longitude, -latitude, -time) %>% 
-  filter(
-    dtime        >= ymd_min,          # n: 2,416,384 -> 1,501,280
-    # select only starboard samples from the bongo nets
-    net_location == "starboard") %>%  # n: 2,416,384 -> 1,792,640
-  arrange(cruise, ship_code, order_occupied) #  x 25
 
-# core stations
-linestation_core = c(
-  "76.7 49", "76.7 51", "76.7 55", "76.7 60","76.7 70","76.7 80","76.7 90", "76.7 100","80 51",
-  "80 55","80 60","80 70","80 80", "80 90","80 100",
-  "81.8 46.9","83.3 40.6", "83.3 42", "83.3 51", "83.3 55", "83.3 60","83.3 70","83.3 80", "83.3 90", "83.3 100","83.3 110",
-  "86.7 33", "86.7 35", "86.7 40", "86.7 45", "86.7 50", "86.7 55","86.7 60","86.7 70", "86.7 80", "86.7 90", "86.7 100", "86.7 110",
-  "90 28", "90 30", "90 35","90 37", "90 45", "90 53", "90 60", "90 70", "90 80", "90 90", "90 100", "90 110", "90 120",
-  "93.3 26.7", "93.3 28", "93.3 30", "93.3 35", "93.3 40","93.3 45", "93.3 50","93.3 60","93.3 70", "93.3 80", "93.3 90", "93.3 100","93.3 110","93.3 120")
+if (!file.exists(d_lrvcntSBtoSC_csv)){
+  
+  d_lrvcntSBtoSC <- tabledap("erdCalCOFIlrvcntSBtoSC") # 23.3 sec
+  #toc()
+  # d_lrvcntSBtoSC_0 <- d_lrvcntSBtoSC
+  # d_lrvcntSBtoSC <- d_lrvcntSBtoSC_0
+  
+  d_lrvcntSBtoSC <- d_lrvcntSBtoSC %>% 
+    as_tibble() %>% 
+    mutate(
+      stn_cruise_ship_order = glue("{cruise}-{ship_code}-{order_occupied}"),
+      lon   = as.numeric(longitude), # rng: -179.82, -77.23
+      lat   = as.numeric(latitude),  # rng:    0.01,  51.09
+      dtime = as_datetime(time),
+      line_station = glue("{line} {station}")) %>% 
+    select(-longitude, -latitude, -time) %>% 
+    filter(
+      dtime        >= ymd_min,          # n: 2,416,384 -> 1,501,280
+      # select only starboard samples from the bongo nets
+      net_location == "starboard") %>%  # n: 2,416,384 -> 1,792,640
+    arrange(cruise, ship_code, order_occupied) #  x 25
+  
+  # core stations
+  linestation_core = c(
+    "76.7 49", "76.7 51", "76.7 55", "76.7 60","76.7 70","76.7 80","76.7 90", "76.7 100","80 51",
+    "80 55","80 60","80 70","80 80", "80 90","80 100",
+    "81.8 46.9","83.3 40.6", "83.3 42", "83.3 51", "83.3 55", "83.3 60","83.3 70","83.3 80", "83.3 90", "83.3 100","83.3 110",
+    "86.7 33", "86.7 35", "86.7 40", "86.7 45", "86.7 50", "86.7 55","86.7 60","86.7 70", "86.7 80", "86.7 90", "86.7 100", "86.7 110",
+    "90 28", "90 30", "90 35","90 37", "90 45", "90 53", "90 60", "90 70", "90 80", "90 90", "90 100", "90 110", "90 120",
+    "93.3 26.7", "93.3 28", "93.3 30", "93.3 35", "93.3 40","93.3 45", "93.3 50","93.3 60","93.3 70", "93.3 80", "93.3 90", "93.3 100","93.3 110","93.3 120")
+  
+  # CINMS stations
+  linestation_cinms = c(
+    "76.7 49", "76.7 51", "76.7 55", "76.7 60","80 51", "80 55", 
+    "80 60","81.8 46.9","83.3 40.6", "83.3 42", "83.3 51", "83.3 55", "83.3 60",
+    "86.7 33", "86.7 35", "86.7 40", "86.7 45", "86.7 50", "86.7 55","86.7 60","90 28", "90 30", "90 35",
+    "90 37", "90 45", "90 53","90 60", "93.3 26.7", "93.3 28", "93.3 30", "93.3 35", "93.3 40",
+    "93.3 45", "93.3 50","93.3 60")
+  
+  # SB stations
+  linestation_sb <- c("80 55","80 51","81.8 46.9","83.3 55","83.3 51","83.3 42","83.3 40.6")
+  
+  d_lrvcntSBtoSC <- d_lrvcntSBtoSC %>% 
+    mutate(
+      is_core  = line_station %in% linestation_core,
+      is_cinms = line_station %in% linestation_cinms,
+      is_sb    = line_station %in% linestation_sb)
+  #d_lrvcntSBtoSC %>% head(1000) %>% View()
+  
+  write_csv(d_lrvcntSBtoSC, d_lrvcntSBtoSC_csv)
+} else {
+  d_lrvcntSBtoSC <- read_csv(d_lrvcntSBtoSC_csv)
+}
 
-# CINMS stations
-linestation_cinms = c(
-  "76.7 49", "76.7 51", "76.7 55", "76.7 60","80 51", "80 55", 
-  "80 60","81.8 46.9","83.3 40.6", "83.3 42", "83.3 51", "83.3 55", "83.3 60",
-  "86.7 33", "86.7 35", "86.7 40", "86.7 45", "86.7 50", "86.7 55","86.7 60","90 28", "90 30", "90 35",
-  "90 37", "90 45", "90 53","90 60", "93.3 26.7", "93.3 28", "93.3 30", "93.3 35", "93.3 40",
-  "93.3 45", "93.3 50","93.3 60")
-
-# SB stations
-linestation_sb <- c("80 55","80 51","81.8 46.9","83.3 55","83.3 51","83.3 42","83.3 40.6")
-
-d_lrvcntSBtoSC <- d_lrvcntSBtoSC %>% 
-  mutate(
-    is_core  = line_station %in% linestation_core,
-    is_cinms = line_station %in% linestation_cinms,
-    is_sb    = line_station %in% linestation_sb)
-#d_lrvcntSBtoSC %>% head(1000) %>% View()
 
 p_stns <- d_lrvcntSBtoSC %>% 
   filter(is_core) %>% 
@@ -304,8 +319,15 @@ plot(st_geometry(hul_sb)   , col=cols_fill[3], border = cols_brdr[3], add = T)
 plot(st_geometry(p_stns %>% filter(is_core)) , col=cols_fill[1], add=T)
 plot(st_geometry(p_stns %>% filter(is_cinms)), col="blue", add=T)
 plot(st_geometry(p_stns %>% filter(is_sb))   , col="red" , add=T)
+legend("bottomright", 
+  legend  = c("Core", "CINMS", "Santa Barbara"), 
+  fill    = cols_fill,
+  border  = cols_brdr) #, bty="n")
+```
 
 
+#### old spatial 
+```{r eval=F}
 ply <- mapedit::editFeatures(p_stns %>% filter(is_core))
 mapview::mapview(ply)
 
@@ -431,5 +453,51 @@ mapview(p_cinms) + mapview(p_lrvcntSBtoSC)
 mapview(p_cinms) + mapview(p_lrvcntSBtoSC %>% filter(SANCTUARY=="CINMS")
 
 sf::st_covered_by()
+```
+
+### Taxa filter
+
+```{r}
+d_lrvcntSBtoSC %>% 
+  filter(is_cinms) %>% 
+  select(scientific_name) %>% 
+  table()
+```
+
+
+Need to access other ERDDAP endpoints to get species of interest:
+
+- Northern anchovy (_Engraulis mordax_)
+- Pacific sardine (_Sardinops sagax_)
+- market squid (_Doryteuthis opalescens_)
+
+### TODO: check `cruise_shipcode`
+
+```{r, eval=F}
+raw5 <- subset(raw4,cruise_shipcode %in% c("201504 NH","201404 OS","201402 SH","201304 SH","201307 NH","201301 SH",
+"201210 NH","201203 SH","201207 OS","201202 NH","201110 NH","201104 SH","201108 NH","201101 NH","201011 NH","201004 MF",
+"201008 NH","201001 NH","200911 NH","200903 JD","200907 M2","200901 NH","200810 NH","200804 JD","200808 NH","200801 JD",
+"200711 NH","200704 JD","200707 NH","200701 JD","200610 RR","200604 NH","200607 NH","200602 JD","200511 NH","200504 NH",
+"200507 NH","200501 NH","200411 RR","200404 NH","200407 JD","200401 JD","200310 NH","200304 RR","200307 NH","200302 JD",
+"200211 NH","200204 JD","200207 NH","200201 JD","200110 NH","200104 JD","200107 NH","200101 JD","200010 NH","200004 JD",
+"200007 NH","200001 NH","199910 NH","199904 JD","199908 NH","199901 RR","199809 NH","199804 JD","199807 NH","199802 JD",
+"199709 NH","199704 NH","199707 JD","199702 JD","199610 RR","199604 JD","199608 NH","199602 JD","199510 NH","199504 NH",
+"199507 JD","199501 JD","199410 NH","199403 JD","199408 NH","199401 JD","199310 NH","199304 JD","199308 NH","199301 JD",
+"199210 NH","199204 JD","199207 JD","199202 JD","199110 NH","199103 JD","199108 JD","199101 JD","199011 NH","199003 JD",
+"199008 NH","198911 NH","198904 JD","198907 NH","198901 JD","198810 NH","198805 JD","198808 NH","198801 JD","198711 NH",
+"198705 JD","198709 NH","198703 JD","198611 NH","198605 JD","198609 NH","198602 JD","198511 NH","198505 JD","198508 NH",
+"198502 M4","198410 JD","198410 NH","198404 JD","198404 NH","198407 JD","198407 NH","198401 JD","198401 NH","198303 EK",
+"198104 JD","198107 JD","198101 JD","197803 JD","197807 JD","197801 JD","197511 JD","197505 JD","197507 JD","197501 AX",
+"197501 JD","197207 AL","197207 AX","197207 JD","197202 AX","197202 AB","197202 AL","196910 JD","196904 JD","196907 JD",
+"196901 JD","196806 JD","196801 HO","196706 EB","196610 JD","196604 AL","196607 JD","196602 AX","196509 BD","196504 AX",
+"196507 AX","196507 BD","196501 AX","196501 BD","196410 BD","196404 AX","196407 AX","196407 BD","196401 AX","196401 BD",
+"196310 BD","196304 AX","196304 BD","196307 BD","196301 AX","196301 BD","196210 AX","196210 BD","196203 HO","196203 BD",
+"196207 BD","196201 HO","196201 BD","196110 HO","196110 BD","196104 HO","196104 BD","196107 HO","196107 BD","196101 HO",
+"196101 BD","196010 BD","196010 SB","196004 HO","196004 HS","196007 HO","196007 BD","196002 BD","195910 SB","195910 OR",
+"195904 OR","195907 OR","195907 PT","195901 BD","195901 OR","195810 ST","195804 SB","195804 BD","195804 PT","195807 PT",
+"195807 OR","195710 PT","195704 HO","195707 ST","195707 PT","195604 ST","195607 OR","195607 PT","195504 CR","195507 CR",
+"195507 PT","195404 HO","195404 ES","195406 HO","195304 HO","195304 PT","195304 CR","195306 CR","195306 ES","195306 YE",
+"195306 PT","195204 HO","195204 CR","195206 SB","195206 BD","195206 YE","195104 BD","195104 CR","195106 BD","195106 YE",
+"195101 47","195101 CR"))
 ```
 
