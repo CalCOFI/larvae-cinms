@@ -1,0 +1,435 @@
+---
+title: "CalCOFI Analysis"
+subtitle: "for CINMS/MBNMS infographics using ERDDAP"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F, warning = F)
+```
+
+```{r}
+library(dplyr)
+library(purrr)
+library(here)
+library(fs)
+library(glue)
+library(sf)
+library(mapview)
+
+dir_img <- "/Users/bbest/Gdrive Ecoquants/projects/nms-web/cinms/Images"
+
+# functions ----
+convert_fig <- function(fig_beg, fig_end, redo=F){
+  stopifnot(file.exists(fig_beg), dir.exists(dirname(fig_end)))
+  #browser()
+  if (!file.exists(fig_end) | redo){
+    cmd <- glue("magick convert '{fig_beg}' -resize 800 -alpha on '{fig_end}'")
+    system(cmd)
+    
+    paths_01 <- glue("{path_ext_remove(fig_end)}-{c(0,1)}.png")
+    if (all(file.exists(paths_01))){
+      file_copy(paths_01[2], fig_end, overwrite = T)
+      file_delete(paths_01)
+    }
+  }
+}  
+
+get_nms_ply <- function(nms){
+  # eg get_nms_ply("cinms")
+  # get polygon for National Marine Sanctuary
+  
+  nms_shp <- here(glue("data/shp/{nms}_py.shp"))
+  
+  if (!file.exists(nms_shp)){
+    # download if needed
+    
+    # https://sanctuaries.noaa.gov/library/imast_gis.html
+    nms_url <- glue("https://sanctuaries.noaa.gov/library/imast/{nms}_py2.zip")
+    nms_zip <- here(glue("data/{nms}.zip"))
+    shp_dir <- here("data/shp")
+    
+    download.file(nms_url, nms_zip)
+    unzip(nms_zip, exdir = shp_dir)
+    file_delete(nms_zip)
+  }
+  # read and convert to standard geographic projection
+  read_sf(nms_shp) %>%
+    st_transform(4326)
+}
+```
+
+
+## CINMS Condition Report Figures
+
+### S.LR.12.5. anchovy, sardine, squid in bongo nets
+
+```{r}
+figs <- list(
+  folder = "State - Living Resources (S.LR.Q#.#)",
+  figure = c(
+    "S.LR.12.5a_Anchovy_CalCOFI.tif", 
+    "S.LR.12.5b_Sardine_CalCOFI.tif", 
+    "S.LR.12.5c_Squid_CalCOFI.tif"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+
+walk2(figs_beg, figs_end, convert_fig)
+
+knitr::include_graphics(figs_end)
+```
+
+Figure S.LR.12.5. Relative abundance of Northern anchovy Engraulis mordax (top), Pacific sardine Sardinops sagax (middle), and market squid Doryteuthis opalescens (bottom) in bongo nets deployed during spring California Cooperative Oceanic Fisheries Investigations (CalCOFI) cruises at sites in the Channel Islands National Marine Sanctuary (CINMS) region from 1978–2015 (except squid collected since 1997). Horizontal lines show the mean (dashed line) ± 1.0 standard deviation (solid lines) over the full time series. Symbol at upper right indicates whether data over the last five years (green shaded areas) had a positive trend (⬈), a negative trend (⬊), or no trend (↔). Symbol at lower right indicates whether the mean over the past five years was greater than (+), less than (–), or within 1 standard deviation (●) of the mean of the full time series. It is important to note that a mean abundance of zero does not mean that the species is completely absent from the waters off of southern California, but that it was not collected at any sites around CINMS during the spring survey that year (sampling locations shown in Appendix F: Figure App.F.12.17). Data source: CalCOFI; Figure: A. Thompson/NMFS SWFSC
+
+### S.LR.15.3 cool/warm-water icthyoplankton, spp richness/diversity
+
+Larval fish in nets
+
+```{r}
+figs <- list(
+  folder = "State - Living Resources (S.LR.Q#.#)",
+  figure = c(
+    "S.LR.15.3a_Cool-water.tif", 
+    "S.LR.15.3b_warm-water.tif", 
+    "S.LR.15.3c_species_richness.tif", 
+    "S.LR.15.3d_Simpson_diversity.tif"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+walk2(figs_beg, figs_end, convert_fig)
+knitr::include_graphics(figs_end)
+```
+
+Figure S.LR.15.3. (Top) Mean abundance of (left) cool-water associated and (right) warm-water associated ichthyoplankton (larval fishes) collected in net samples during CalCOFI cruises in spring and summer at sites in the Channel Islands National Marine Sanctuary region from 1978 to 2015. (Bottom) The average species richness (left) and species diversity (right) in each net sample is shown for the entire time series. Gini-Simpson diversity (1-λ form) is a measure of the equitability of species in a sample. When individuals are well-distributed among species, Gini-Simpson diversity is high. Graph format is explained in Figure S.LR.12.4. The warm water event also influenced the relative abundance of warm-water species at higher trophic levels including predatory fish, seabirds, and marine mammals. For example, there were increased sightings of species not usually observe
+
+### App.F.12.17 map of net samples
+
+```{r}
+figs <- list(
+  folder = "App F: LR (AppF.Q#.#)/AppendixF_Q12",
+  figure = c(
+    "App.F.12.17.Map_CalCOFI.tiff"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+walk2(figs_beg, figs_end, convert_fig)
+knitr::include_graphics(figs_end)
+```
+
+Figure App.F.12.17. Location of spring season net samples by the California Cooperative Oceanic Fisheries Investigations (CalCOFI) used in analyses of abundance and trends in pelagic resources in two regions: Channel Islands National Marine Sanctuary region (red) includes CalCOFI stations inside and adjacent to CINMS; and Southern California Shelf (yellow) includes all CalCOFI stations over the shelf. Figure: A. Thompson/NOAA
+
+### App.F.12.18 small plankton volume in CINMS/SoCal
+
+```{r}
+figs <- list(
+  folder = "App F: LR (AppF.Q#.#)/AppendixF_Q12",
+  figure = c(
+    "App.F.12.18_CalCOFI_SPV.tiff"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+walk2(figs_beg, figs_end, convert_fig)
+knitr::include_graphics(figs_end)
+```
+
+Figure App.F.12.18. Mean volume of small plankton collected in net samples during CalCOFI cruises at only sites in the Channel
+Islands National Marine Sanctuary region (top) and all sites over the Southern California Shelf (bottom) from 1978 to 2015 (sampling
+locations shown in Figure App.F.12.17). Horizontal lines show the mean (dashed line) ± 1.0 standard deviation (solid lines) over the
+full time series. Symbol at upper right indicates whether data over the last five years (green shaded areas) had a positive trend (),
+a negative trend (), or no trend (↔). Symbol at lower right indicates whether the mean over the past five years was greater than
+(+), less than (–), or within 1 standard deviation (●) of the mean of the full time series..
+Figure App.C.4.15. Variation over time in percentage of stations from winter CalCOFI cruises with plastic micro-debris. Micro-debris was present in more than 50 percent of samples at each time period. Figure: Gilfillan et al. 2009
+
+### App.F.12.19 key forage groups in CINMS/SoCal
+
+```{r}
+figs <- list(
+  folder = "App F: LR (AppF.Q#.#)/AppendixF_Q12",
+  figure = c(
+    "App.F.12.19b.CalCOFI_Med_ichthy.tiff",
+    "App.F.12.19a.CalCOFI_High_ichthy.tiff"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+walk2(figs_beg, figs_end, convert_fig)
+knitr::include_graphics(figs_end)
+```
+
+Figure App.F.12.19. Relative abundance of key forage groups collected in net samples during spring CalCOFI cruises at sites in
+the Channel Islands National Marine Sanctuary (CINMS) region from 1978 to 2015. Forage is grouped by high (left panel) and
+medium (right panel) energy density. High energy taxa are Pacific sardines, northern anchovies, and and Myctophids. Medium-
+energy taxa are Pacific hake, shortbelly rockfish, and sanddabs. Although sardine were completely absent in net samples from 2011
+to 2014 in the CINMS region, comparison with samples collected in the larger Southern California Shelf region reveal that sardine
+were at very low abundance but not completely absent from the region (sampling locations shown in Figure App.F12.17). Symbols
+on graph explained in the caption of Figure App.F12.18.
+Data source: CalCOFI; Figure: A. Thompson/NOAA
+
+### App.F.12.20 market squid in CINMS/SoCal
+
+```{r}
+figs <- list(
+  folder = "App F: LR (AppF.Q#.#)/AppendixF_Q12",
+  figure = c(
+    "App.F.12.20.CalCOFI_squid.tiff"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+walk2(figs_beg, figs_end, convert_fig)
+knitr::include_graphics(figs_end)
+```
+
+Figure App.F.12.20. Mean abundance of market squid (Doryteuthis opalescens) collected in net samples during CalCOFI cruises at
+only sites in the Channel Islands National Marine Sanctuary region (top) and all sites over the Southern California Shelf (bottom) from 1997 to 2015 (sampling locations shown in Figure App.F12.17). Symbols on graph explained in the caption of Figure App.F12.18. Data source: CalCOFI; Figure: A. Thompson/NOAA
+  
+ 
+
+
+## ERDDAP Analysis
+
+- [ERDDAP - Search: calcofi](https://coastwatch.pfeg.noaa.gov/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=calcofi): 50 matching datasets
+- R package [rerddap](https://github.com/ropensci/rerddap)
+  - [Using rerddap](https://cran.r-project.org/web/packages/rerddap/vignettes/Using_rerddap.html)
+  - [Environmental drivers of small pelagic fish](https://rmendels.github.io/pices2017.nb.html)
+  
+```{r, eval=F}
+library(rerddap)
+library(lubridate)
+#library(tictoc)
+here = here::here
+
+
+stns <- tabledap('erdCalCOFIstns')
+stns <- stns %>% 
+  arrange(cruise, ship_code, order_occupied)
+View(stns)
+
+## pull in data taken from erddap
+## this file came from the link: CalCOFI Larvae Counts, Scientific Names SB to SC
+# see: https://coastwatch.pfeg.noaa.gov/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=CalCOFI+Larvae+Counts
+#raw1 <- read.csv("erdCalCOFIlrvcntSBtoSC_5e28_d9ef_0ecc.csv")
+
+yr_min = 1978
+ymd_min = ymd(glue("{yr_min}-01-01"))
+
+p_cinms <- get_nms_ply("cinms")
+
+info("erdCalCOFIlrvcntSBtoSC")
+#flds <- c("calcofi_species_code", "station", "line", "longitude", "latitude", "net_location")
+#d_lrvcntSBtoSC <- tabledap("erdCalCOFIlrvcntSBtoSC", fields=flds) #%>% 
+#tic()
+d_lrvcntSBtoSC <- tabledap("erdCalCOFIlrvcntSBtoSC") # 23.3 sec
+#toc()
+# d_lrvcntSBtoSC_0 <- d_lrvcntSBtoSC
+# d_lrvcntSBtoSC <- d_lrvcntSBtoSC_0
+
+d_lrvcntSBtoSC <- d_lrvcntSBtoSC %>% 
+  as_tibble() %>% 
+  mutate(
+    stn_cruise_ship_order = glue("{cruise}-{ship_code}-{order_occupied}"),
+    lon   = as.numeric(longitude), # rng: -179.82, -77.23
+    lat   = as.numeric(latitude),  # rng:    0.01,  51.09
+    dtime = as_datetime(time),
+    line_station = glue("{line} {station}")) %>% 
+  select(-longitude, -latitude, -time) %>% 
+  filter(
+    dtime        >= ymd_min,          # n: 2,416,384 -> 1,501,280
+    # select only starboard samples from the bongo nets
+    net_location == "starboard") %>%  # n: 2,416,384 -> 1,792,640
+  arrange(cruise, ship_code, order_occupied) #  x 25
+
+# core stations
+linestation_core = c(
+  "76.7 49", "76.7 51", "76.7 55", "76.7 60","76.7 70","76.7 80","76.7 90", "76.7 100","80 51",
+  "80 55","80 60","80 70","80 80", "80 90","80 100",
+  "81.8 46.9","83.3 40.6", "83.3 42", "83.3 51", "83.3 55", "83.3 60","83.3 70","83.3 80", "83.3 90", "83.3 100","83.3 110",
+  "86.7 33", "86.7 35", "86.7 40", "86.7 45", "86.7 50", "86.7 55","86.7 60","86.7 70", "86.7 80", "86.7 90", "86.7 100", "86.7 110",
+  "90 28", "90 30", "90 35","90 37", "90 45", "90 53", "90 60", "90 70", "90 80", "90 90", "90 100", "90 110", "90 120",
+  "93.3 26.7", "93.3 28", "93.3 30", "93.3 35", "93.3 40","93.3 45", "93.3 50","93.3 60","93.3 70", "93.3 80", "93.3 90", "93.3 100","93.3 110","93.3 120")
+
+# CINMS stations
+linestation_cinms = c(
+  "76.7 49", "76.7 51", "76.7 55", "76.7 60","80 51", "80 55", 
+  "80 60","81.8 46.9","83.3 40.6", "83.3 42", "83.3 51", "83.3 55", "83.3 60",
+  "86.7 33", "86.7 35", "86.7 40", "86.7 45", "86.7 50", "86.7 55","86.7 60","90 28", "90 30", "90 35",
+  "90 37", "90 45", "90 53","90 60", "93.3 26.7", "93.3 28", "93.3 30", "93.3 35", "93.3 40",
+  "93.3 45", "93.3 50","93.3 60")
+
+# SB stations
+linestation_sb <- c("80 55","80 51","81.8 46.9","83.3 55","83.3 51","83.3 42","83.3 40.6")
+
+d_lrvcntSBtoSC <- d_lrvcntSBtoSC %>% 
+  mutate(
+    is_core  = line_station %in% linestation_core,
+    is_cinms = line_station %in% linestation_cinms,
+    is_sb    = line_station %in% linestation_sb)
+#d_lrvcntSBtoSC %>% head(1000) %>% View()
+
+p_stns <- d_lrvcntSBtoSC %>% 
+  filter(is_core) %>% 
+  group_by(stn_cruise_ship_order) %>% 
+  summarise(
+    lon          = mean(lon),
+    lat          = mean(lat),
+    line_station = first(line_station),
+    is_core      = first(is_core),
+    is_cinms     = first(is_cinms),
+    is_sb        = first(is_sb)) %>% 
+  st_as_sf(coords=c("lon", "lat"), crs=4326, remove=F)
+
+hul_cinms <- d_lrvcntSBtoSC %>% 
+  filter(is_cinms) %>% 
+  st_as_sf(coords=c("lon", "lat"), crs=4326, remove=F) %>% 
+  st_union() %>% st_convex_hull()
+
+hul_core <- p_stns %>% 
+  filter(is_core) %>% 
+  st_union() %>% st_convex_hull()
+
+hul_sb <- p_stns %>% 
+  filter(is_sb) %>% 
+  st_union() %>% st_convex_hull()
+
+cols_fill <- sf.colors(n=3, alpha=0.3)
+cols_brdr <- sf.colors(n=3, alpha=0.6)
+plot(st_geometry(hul_core) , col=cols_fill[1], border = cols_brdr[1], axes=T)
+plot(st_geometry(hul_cinms), col=cols_fill[2], border = cols_brdr[2], add = T)
+plot(st_geometry(hul_sb)   , col=cols_fill[3], border = cols_brdr[3], add = T)
+plot(st_geometry(p_stns %>% filter(is_core)) , col=cols_fill[1], add=T)
+plot(st_geometry(p_stns %>% filter(is_cinms)), col="blue", add=T)
+plot(st_geometry(p_stns %>% filter(is_sb))   , col="red" , add=T)
+
+
+ply <- mapedit::editFeatures(p_stns %>% filter(is_core))
+mapview::mapview(ply)
+
+p_stns3 %>% filter(is_cinms)
+
+plot(st_geometry(p_stns3 %>% )   , col="red", axes=T) # , add=T)
+
+
+names(d_lrvcntSBtoSC)
+summary(d_lrvcntSBtoSC %>% select(lon, lat))
+
+d_lrvcntSBtoSC$line
+d_lrvcntSBtoSC$station
+
+### select just the core stations
+raw3 <- subset(raw2, line.station %in% c("76.7 49", "76.7 51", "76.7 55", "76.7 60","76.7 70","76.7 80","76.7 90", "76.7 100","80 51", 
+											"80 55","80 60","80 70","80 80", "80 90","80 100",
+											"81.8 46.9","83.3 40.6", "83.3 42", "83.3 51", "83.3 55", "83.3 60","83.3 70","83.3 80", "83.3 90", "83.3 100","83.3 110", 
+							"86.7 33", "86.7 35", "86.7 40", "86.7 45", "86.7 50", "86.7 55","86.7 60","86.7 70", "86.7 80", "86.7 90", "86.7 100", "86.7 110",
+							"90 28", "90 30", "90 35","90 37", "90 45", "90 53", "90 60", "90 70", "90 80", "90 90", "90 100", "90 110", "90 120",
+							"93.3 26.7", "93.3 28", "93.3 30", "93.3 35", "93.3 40","93.3 45", "93.3 50","93.3 60","93.3 70", "93.3 80", "93.3 90", "93.3 100","93.3 110","93.3 120"))
+
+
+
+
+# head(d_lrvcntSBtoSC) %>% View()
+d_lrvcntSBtoSC$dtime[1] > 
+  
+  year(yr_min)
+
+lubridate::as_datetime(d_lrvcntSBtoSC$time[1])
+d_lrvcntSBtoSC$
+time
+
+# check lat/lon differences per station
+# stns2 <- d_lrvcntSBtoSC %>%
+#   group_by(stn_cruise_ship_order) %>% # n: 50,161
+#   summarise(
+#     lon_avg = mean(lon),
+#     lon_min = min(lon),
+#     lon_max = max(lon),
+#     lon_dif = lon_max - lon_min,
+#     lat_avg = mean(lat),
+#     lat_min = min(lat),
+#     lat_max = max(lat),
+#     lat_dif = lat_max - lat_min) %>%
+#   arrange(desc(lat_dif))
+# stns2 # OK: 0 for lat_dif, lon_dif
+
+
+
+
+p_stns2 <- d_lrvcntSBtoSC %>% 
+  group_by(stn_cruise_ship_order) %>% 
+  summarise(
+    lon = first(lon),
+    lat = first(lat)) %>% 
+  st_as_sf(
+    coords = c("lon", "lat"), 
+    crs = 4326, remove = F)
+
+plot(st_geometry(p_stns2), reset=F, axes=T, key.pos=NULL)
+plot(st_geometry(p_stns2), reset=F, axes=T, key.pos=NULL)
+plot(p_cinms['AREA_NAME'],   add=T)
+plot(p_cinms['AREA_NAME'], axes=T, key.pos=NULL)
+plot()
+
+head(d_lrvcntSBtoSC)
+  
+  View()
+d_lrvcntSBtoSC <- d_lrvcntSBtoSC %>% 
+  
+summary(d_lrvcntSBtoSC)
+
+stns <- d_lrvcntSBtoSC %>% 
+  group_by(station, line) %>% 
+  summarize(
+    lon_mean = mean(lon),
+    lon_min  = min(lon),
+    lon_max  = max(lon),
+    lon_dif  = lon_max - lon_min,
+    lat_mean = mean(lat),
+    lat_min  = min(lat),
+    lat_max  = max(lat),
+    lat_dif  = lat_max - lat_min)
+View(stns)
+View(d_lrvcntSBtoSC)
+
+# TODO: throw warnings() about species not in ERDDAP selected area 
+#       and display species that are in the area but not selected.
+# GOAL: to be able to update the CINMS CR/infographic in future years
+#          for similar taxa and sites (ie within selected polygon)
+#      and to perform similar analyses in other regions, ie:
+#          MBNMS, OCNMS, CA Current IEA
+# CalCOFI now mostly SoCal, except Line 67 in Monterey
+#  
+
+datasets <- ed_search(query = "CalCOFI", which = "tabledap")
+datasets
+
+info()
+
+
+#mapview::mapview(p_cinms)
+
+st_join(pts, poly, join = st_intersects)
+
+summary(d_lrvcntSBtoSC)
+
+p_lrvcntSBtoSC <- st_as_sf(d_lrvcntSBtoSC, coords = c("lon", "lat"), crs = 4326)
+p_stns <- st_as_sf(stns, coords = c("lon_mean", "lat_mean"), crs = 4326)
+
+p_lrvcntSBtoSC <- st_join(p_lrvcntSBtoSC, select(p_cinms, SANCTUARY))
+
+
+table(p_lrvcntSBtoSC$SANCTUARY, useNA="always")
+
+plot(p_cinms["SANCTUARY"])
+plot(p_cinms[1])
+plot(p_lrvcntSBtoSC[1], add=T)
+
+mapview(p_cinms) + mapview(p_lrvcntSBtoSC)
+mapview(p_cinms) + mapview(p_lrvcntSBtoSC %>% filter(SANCTUARY=="CINMS")
+
+sf::st_covered_by()
+```
+
