@@ -1,0 +1,915 @@
+common_name,scientific_name,common_scientific,itis_tsn,calcofi_species_code,n,paths
+NA,Abralia,NA (_Abralia_),82406,9555,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Abralia trigonura,NA (_Abralia trigonura_),556021,9556,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Abraliopsis,NA (_Abraliopsis_),82398,9560,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Abraliopsis affinis,NA (_Abraliopsis affinis_),82402,9559,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Abraliopsis felis,NA (_Abraliopsis felis_),82401,9561,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Abraliopsis sp A,NA (_Abraliopsis sp A_),82398,9562,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Abraliopsis sp B,NA (_Abraliopsis sp B_),82398,9563,44500,erdCalCOFIlrvcntAtoAM.csv
+Sergeant majors,Abudefduf,Sergeant majors (_Abudefduf_),170045,623,44500,erdCalCOFIlrvcntAtoAM.csv
+Wahoo,Acanthocybium solandri,Wahoo (_Acanthocybium solandri_),172451,576,44500,erdCalCOFIlrvcntAtoAM.csv
+Surgeonfishes,Acanthuridae,Surgeonfishes (_Acanthuridae_),172250,585,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Acanthurus,NA (_Acanthurus_),172251,2190,44500,erdCalCOFIlrvcntAtoAM.csv
+Convict surgeonfish,Acanthurus triostegus,Convict surgeonfish (_Acanthurus triostegus_),172270,588,44500,erdCalCOFIlrvcntAtoAM.csv
+Pacific lined sole,Achirus mazatlanus,Pacific lined sole (_Achirus mazatlanus_),172989,969,44500,erdCalCOFIlrvcntAtoAM.csv
+Poachers,Agonidae,Poachers (_Agonidae_),167426,760,44500,erdCalCOFIlrvcntAtoAM.csv
+Southern spearnose,Agonopsis sterletus,Southern spearnose (_Agonopsis sterletus_),167431,766,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Ahliesaurus brevis,NA (_Ahliesaurus brevis_),644705,1200,44500,erdCalCOFIlrvcntAtoAM.csv
+Giant grenadier,Albatrossia pectoralis,Giant grenadier (_Albatrossia pectoralis_),165341,896,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Albula,NA (_Albula_),161120,7,44500,erdCalCOFIlrvcntAtoAM.csv
+Longnose lancetfish,Alepisaurus ferox,Longnose lancetfish (_Alepisaurus ferox_),162527,211,44500,erdCalCOFIlrvcntAtoAM.csv
+Slickheads,Alepocephalidae,Slickheads (_Alepocephalidae_),162303,35,44500,erdCalCOFIlrvcntAtoAM.csv
+Island kelpfish,Alloclinus holderi,Island kelpfish (_Alloclinus holderi_),171465,828,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Amarsipus carlsbergi,NA (_Amarsipus carlsbergi_),642535,534,44500,erdCalCOFIlrvcntAtoAM.csv
+Pacific sand lance,Ammodytes hexapterus,Pacific sand lance (_Ammodytes hexapterus_),171672,881,44500,erdCalCOFIlrvcntAtoAM.csv
+NA,Ammodytoides gilli,NA (_Ammodytoides gilli_),630395,884,44500,erdCalCOFIlrvcntAtoAM.csv
+Pyle's sandlance,Ammodytoides pylei,Pyle's sandlance (_Ammodytoides pylei_),630417,1969,44500,erdCalCOFIlrvcntAtoAM.csv
+Wolf-eel,Anarrichthys ocellatus,Wolf-eel (_Anarrichthys ocellatus_),633876,862,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Anchoa,NA (_Anchoa_),161837,26,76143,erdCalCOFIlrvcntANtoAR.csv
+Eels,Anguilliformes,Eels (_Anguilliformes_),161123,355,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Anisotremus,NA (_Anisotremus_),169080,602,76143,erdCalCOFIlrvcntANtoAR.csv
+Sargo,Anisotremus davidsoni,Sargo (_Anisotremus davidsoni_),169087,601,76143,erdCalCOFIlrvcntANtoAR.csv
+High cockscomb,Anoplarchus purpurescens,High cockscomb (_Anoplarchus purpurescens_),171564,847,76143,erdCalCOFIlrvcntANtoAR.csv
+Sablefish (blackcod),Anoplopoma fimbria,Sablefish (blackcod) (_Anoplopoma fimbria_),167123,711,76143,erdCalCOFIlrvcntANtoAR.csv
+Daggertooth,Anotopterus pharao,Daggertooth (_Anotopterus pharao_),162534,326,76143,erdCalCOFIlrvcntANtoAR.csv
+Frogfishes,Antennariidae,Frogfishes (_Antennariidae_),164518,980,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Antennarius,NA (_Antennarius_),164522,981,76143,erdCalCOFIlrvcntANtoAR.csv
+Roughjaw frogfish,Antennarius avalonis,Roughjaw frogfish (_Antennarius avalonis_),164529,977,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Anthiinae,NA (_Anthiinae_),167675,435,76143,erdCalCOFIlrvcntANtoAR.csv
+Pacific black scabbardfish,Aphanopus arigato,Pacific black scabbardfish (_Aphanopus arigato_),646749,2240,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Apogon,NA (_Apogon_),168197,444,76143,erdCalCOFIlrvcntANtoAR.csv
+Plain cardinalfish,Apogon atricaudus,Plain cardinalfish (_Apogon atricaudus_),642065,459,76143,erdCalCOFIlrvcntANtoAR.csv
+Guadalupe Cardinalfish,Apogon guadalupensis,Guadalupe Cardinalfish (_Apogon guadalupensis_),168211,1630,76143,erdCalCOFIlrvcntANtoAR.csv
+Barspot cardinalfish,Apogon retrosella,Barspot cardinalfish (_Apogon retrosella_),168278,462,76143,erdCalCOFIlrvcntANtoAR.csv
+Cardinalfishes,Apogonidae,Cardinalfishes (_Apogonidae_),168196,445,76143,erdCalCOFIlrvcntANtoAR.csv
+Ribbon barracudina,Arctozenus risso,Ribbon barracudina (_Arctozenus risso_),644687,317,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Argentina,NA (_Argentina_),162061,57,76143,erdCalCOFIlrvcntANtoAR.csv
+Pacific argentine,Argentina sialis,Pacific argentine (_Argentina sialis_),162068,56,76143,erdCalCOFIlrvcntANtoAR.csv
+Argentines,Argentinidae,Argentines (_Argentinidae_),162057,55,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Argyropelecus,NA (_Argyropelecus_),162213,101,76143,erdCalCOFIlrvcntANtoAR.csv
+Slender hatchetfish,Argyropelecus affinis,Slender hatchetfish (_Argyropelecus affinis_),162216,103,76143,erdCalCOFIlrvcntANtoAR.csv
+Spurred hatchetfish,Argyropelecus hemigymnus,Spurred hatchetfish (_Argyropelecus hemigymnus_),162219,104,76143,erdCalCOFIlrvcntANtoAR.csv
+Tropical hatchetfish,Argyropelecus lychnus,Tropical hatchetfish (_Argyropelecus lychnus_),162214,102,76143,erdCalCOFIlrvcntANtoAR.csv
+Lowcrest hatchetfish,Argyropelecus sladeni,Lowcrest hatchetfish (_Argyropelecus sladeni_),162221,105,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Ariosoma,NA (_Ariosoma_),161343,1030,76143,erdCalCOFIlrvcntANtoAR.csv
+Gilbert's conger,Ariosoma gilberti,Gilbert's conger (_Ariosoma gilberti_),635894,359,76143,erdCalCOFIlrvcntANtoAR.csv
+Large-eye conger eel,Ariosoma marginatum,Large-eye conger eel (_Ariosoma marginatum_),635690,1031,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Aristostomias,NA (_Aristostomias_),162273,1170,76143,erdCalCOFIlrvcntANtoAR.csv
+Shiny loosejaw,Aristostomias scintillans,Shiny loosejaw (_Aristostomias scintillans_),162274,151,76143,erdCalCOFIlrvcntANtoAR.csv
+NA,Artedius,NA (_Artedius_),167211,737,76143,erdCalCOFIlrvcntANtoAR.csv
+Padded sculpin,Artedius fenestralis,Padded sculpin (_Artedius fenestralis_),167212,745,76143,erdCalCOFIlrvcntANtoAR.csv
+Scalyhead sculpin,Artedius harringtoni,Scalyhead sculpin (_Artedius harringtoni_),167213,738,76143,erdCalCOFIlrvcntANtoAR.csv
+Smoothhead sculpin,Artedius lateralis,Smoothhead sculpin (_Artedius lateralis_),167214,748,76143,erdCalCOFIlrvcntANtoAR.csv
+Rosylip sculpin,Ascelichthys rhodorus,Rosylip sculpin (_Ascelichthys rhodorus_),167218,732,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Aseraggodes,NA (_Aseraggodes_),172996,2311,76143,erdCalCOFIlrvcntAStoBA.csv
+Razorback scabbardfish,Assurger anzac,Razorback scabbardfish (_Assurger anzac_),172397,2245,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Astronesthes,NA (_Astronesthes_),162234,113,76143,erdCalCOFIlrvcntAStoBA.csv
+Snaggletooths,Astronesthinae,Snaggletooths (_Astronesthinae_),622316,110,76143,erdCalCOFIlrvcntAStoBA.csv
+Arrowtooth flounder,Atheresthes stomias,Arrowtooth flounder (_Atheresthes stomias_),172862,959,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Atherinella,NA (_Atherinella_),630593,172,76143,erdCalCOFIlrvcntAStoBA.csv
+Topsmelt,Atherinops affinis,Topsmelt (_Atherinops affinis_),165986,171,76143,erdCalCOFIlrvcntAStoBA.csv
+Silversides,Atherinopsidae,Silversides (_Atherinopsidae_),630579,470,76143,erdCalCOFIlrvcntAStoBA.csv
+Jacksmelt,Atherinopsis californiensis,Jacksmelt (_Atherinopsis californiensis_),166012,173,76143,erdCalCOFIlrvcntAStoBA.csv
+White seabass,Atractoscion nobilis,White seabass (_Atractoscion nobilis_),169387,609,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Aulopus,NA (_Aulopus_),162370,201,76143,erdCalCOFIlrvcntAStoBA.csv
+Eastern Pacific flagfin,Aulopus bajacali,Eastern Pacific flagfin (_Aulopus bajacali_),644741,1185,76143,erdCalCOFIlrvcntAStoBA.csv
+Tubesnout,Aulorhynchus flavidus,Tubesnout (_Aulorhynchus flavidus_),166404,794,76143,erdCalCOFIlrvcntAStoBA.csv
+Chinese trumpetfish,Aulostomus chinensis,Chinese trumpetfish (_Aulostomus chinensis_),166412,1480,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Auxis,NA (_Auxis_),172454,561,76143,erdCalCOFIlrvcntAStoBA.csv
+Smalleye snipe eel,Avocettina bowersi,Smalleye snipe eel (_Avocettina bowersi_),635878,373,76143,erdCalCOFIlrvcntAStoBA.csv
+Blackline snipe eel,Avocettina infans,Blackline snipe eel (_Avocettina infans_),161619,333,76143,erdCalCOFIlrvcntAStoBA.csv
+Finescale triggerfish,Balistes polylepis,Finescale triggerfish (_Balistes polylepis_),173140,417,76143,erdCalCOFIlrvcntAStoBA.csv
+Triggerfishes,Balistidae,Triggerfishes (_Balistidae_),173128,415,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Bathophilus,NA (_Bathophilus_),162243,131,76143,erdCalCOFIlrvcntAStoBA.csv
+Deepbody dragonfish,Bathophilus brevis,Deepbody dragonfish (_Bathophilus brevis_),622372,1158,76143,erdCalCOFIlrvcntAStoBA.csv
+Threadfin dragonfish,Bathophilus filifer,Threadfin dragonfish (_Bathophilus filifer_),622559,132,76143,erdCalCOFIlrvcntAStoBA.csv
+Highfin dragonfish,Bathophilus flemingi,Highfin dragonfish (_Bathophilus flemingi_),162244,133,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Bathyagonus,NA (_Bathyagonus_),167444,1530,76143,erdCalCOFIlrvcntAStoBA.csv
+Bigeye starsnout,Bathyagonus pentacanthus,Bigeye starsnout (_Bathyagonus pentacanthus_),167450,761,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Bathycongrus,NA (_Bathycongrus_),635345,1015,76143,erdCalCOFIlrvcntAStoBA.csv
+Shorthead conger,Bathycongrus macrurus,Shorthead conger (_Bathycongrus macrurus_),635917,357,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Bathylaco nigricans,NA (_Bathylaco nigricans_),162367,39,76143,erdCalCOFIlrvcntAStoBA.csv
+Blacksmelts,Bathylagidae,Blacksmelts (_Bathylagidae_),162080,65,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Bathylagoides,NA (_Bathylagoides_),623317,1085,76143,erdCalCOFIlrvcntAStoBA.csv
+Blackchin blacksmelt,Bathylagoides nigrigenys,Blackchin blacksmelt (_Bathylagoides nigrigenys_),182855,67,76143,erdCalCOFIlrvcntAStoBA.csv
+Snubnose blacksmelt,Bathylagoides wesethi,Snubnose blacksmelt (_Bathylagoides wesethi_),162092,71,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Bathylagus,NA (_Bathylagus_),162081,70,76143,erdCalCOFIlrvcntAStoBA.csv
+Pacific blacksmelt,Bathylagus pacificus,Pacific blacksmelt (_Bathylagus pacificus_),162086,69,76143,erdCalCOFIlrvcntAStoBA.csv
+Javelin spookfish,Bathylychnops exilis,Javelin spookfish (_Bathylychnops exilis_),162109,54,76143,erdCalCOFIlrvcntAStoBA.csv
+Ronquils,Bathymasteridae,Ronquils (_Bathymasteridae_),170945,855,76143,erdCalCOFIlrvcntAStoBA.csv
+Tripod fishes,Bathypterois,Tripod fishes (_Bathypterois_),162439,214,76143,erdCalCOFIlrvcntAStoBA.csv
+NA,Benthalbella,NA (_Benthalbella_),162549,334,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Northern pearleye,Benthalbella dentata,Northern pearleye (_Benthalbella dentata_),162550,336,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Zugmayer's pearleye,Benthalbella infans,Zugmayer's pearleye (_Benthalbella infans_),162552,1191,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Benthosema,NA (_Benthosema_),162679,216,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Bermuda lanternfish,Hygophum hygomii,Bermuda lanternfish (_Hygophum hygomii_),623714,1286,76143,erdCalCOFIlrvcntHJtoID.csv
+Blue lanternfish,Tarletonbeania crenularis,Blue lanternfish (_Tarletonbeania crenularis_),162673,299,55217,erdCalCOFIlrvcntSUtoTE.csv
+NA,Benthosema suborbitale,NA (_Benthosema suborbitale_),162682,219,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Splendid alfonsino,Beryx splendens,Splendid alfonsino (_Beryx splendens_),166156,1420,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Combtooth Blennies,Blenniidae,Combtooth Blennies (_Blenniidae_),171124,850,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Blennioidei,NA (_Blennioidei_),171123,845,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Mexican hogfish,Bodianus diplotaenia,Mexican hogfish (_Bodianus diplotaenia_),170494,1840,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Bolinichthys,NA (_Bolinichthys_),162761,254,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Bolinichthys distofax,NA (_Bolinichthys distofax_),623739,1255,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Popeye lampfish,Bolinichthys longipes,Popeye lampfish (_Bolinichthys longipes_),623750,255,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Borophryne,NA (_Borophryne_),622778,974,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Netdevil,Borophryne apogon,Netdevil (_Borophryne apogon_),622907,972,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Snaggletooth,Borostomias,Snaggletooth (_Borostomias_),162239,1155,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Panama snaggletooth,Borostomias panamensis,Panama snaggletooth (_Borostomias panamensis_),162241,115,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Lefteye Flounders,Bothidae,Lefteye Flounders (_Bothidae_),172714,916,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Rockhead,Bothragonus swani,Rockhead (_Bothragonus swani_),167447,767,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Bothus,NA (_Bothus_),172758,917,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Pacific leopard flounder,Bothus leopardinus,Pacific leopard flounder (_Bothus leopardinus_),616278,918,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Leopard flounder,Bothus pantherinus,Leopard flounder (_Bothus pantherinus_),172764,2270,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Brama,NA (_Brama_),170288,551,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Lowfin pomfret,Brama dussumieri,Lowfin pomfret (_Brama dussumieri_),170292,553,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Pacific pomfret,Brama japonica,Pacific pomfret (_Brama japonica_),170289,552,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Pomfrets,Bramidae,Pomfrets (_Bramidae_),170287,550,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Bregmaceros,NA (_Bregmaceros_),164695,886,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Codlet,Bregmaceros bathymaster,Codlet (_Bregmaceros bathymaster_),550687,887,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Red brotula,Brosmophycis marginata,Red brotula (_Brosmophycis marginata_),164809,866,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Brotula,NA (_Brotula_),164817,1315,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Brotula clarkae,NA (_Brotula clarkae_),164821,784,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Livebearing Brotulas,Bythitidae,Livebearing Brotulas (_Bythitidae_),165140,865,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+Pacific porgy,Calamus brachysomus,Pacific porgy (_Calamus brachysomus_),169204,607,76143,erdCalCOFIlrvcntCtoCE.csv
+Dragonets,Callionymidae,Dragonets (_Callionymidae_),171691,2100,76143,erdCalCOFIlrvcntCtoCE.csv
+NA,Calotomus,NA (_Calotomus_),170871,1906,76143,erdCalCOFIlrvcntCtoCE.csv
+Rough triggerfish,Canthidermis maculatus,Rough triggerfish (_Canthidermis maculatus_),646452,418,76143,erdCalCOFIlrvcntCtoCE.csv
+Jacks,Carangidae,Jacks (_Carangidae_),168584,500,76143,erdCalCOFIlrvcntCtoCE.csv
+NA,Caranx,NA (_Caranx_),168605,501,76143,erdCalCOFIlrvcntCtoCE.csv
+Green jack,Caranx caballus,Green jack (_Caranx caballus_),168611,502,76143,erdCalCOFIlrvcntCtoCE.csv
+Bigeye crevalle jack,Caranx sexfasciatus,Bigeye crevalle jack (_Caranx sexfasciatus_),168620,503,76143,erdCalCOFIlrvcntCtoCE.csv
+Pearlfishes,Carapidae,Pearlfishes (_Carapidae_),165094,875,76143,erdCalCOFIlrvcntCtoCE.csv
+Veilfins,Caristiidae,Veilfins (_Caristiidae_),168820,558,76143,erdCalCOFIlrvcntCtoCE.csv
+Manefin,Caristius maderensis,Manefin (_Caristius maderensis_),645450,559,76143,erdCalCOFIlrvcntCtoCE.csv
+Rubynose brotula,Cataetyx rubrirostris,Rubynose brotula (_Cataetyx rubrirostris_),164905,867,76143,erdCalCOFIlrvcntCtoCE.csv
+NA,Caulolatilus,NA (_Caulolatilus_),168539,812,76143,erdCalCOFIlrvcntCtoCE.csv
+Ocean whitefish,Caulolatilus princeps,Ocean whitefish (_Caulolatilus princeps_),168540,811,76143,erdCalCOFIlrvcntCtoCE.csv
+Fanfins,Caulophryne,Fanfins (_Caulophryne_),164660,987,76143,erdCalCOFIlrvcntCtoCE.csv
+NA,Caulophryne pelagica,NA (_Caulophryne pelagica_),649743,988,76143,erdCalCOFIlrvcntCtoCE.csv
+NA,Cebidichthys violaceus,NA (_Cebidichthys violaceus_),171618,2006,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Centrobranchus andreae,NA (_Centrobranchus andreae_),162734,1283,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+California lanternfish,Symbolophorus californiensis,California lanternfish (_Symbolophorus californiensis_),623871,296,55217,erdCalCOFIlrvcntSUtoTE.csv
+NA,Centrophryne spinulosa,NA (_Centrophryne spinulosa_),164652,983,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+Snooks,Centropomus,Snooks (_Centropomus_),167643,604,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Centropyge,NA (_Centropyge_),169610,1775,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Ceratias,NA (_Ceratias_),164654,1355,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+Northern giant seadevil,Ceratias holboelli,Northern giant seadevil (_Ceratias holboelli_),164655,979,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Ceratioidei,NA (_Ceratioidei_),164610,990,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Ceratoscopelus,NA (_Ceratoscopelus_),162576,225,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+Dogtooth lampfish,Ceratoscopelus townsendi,Dogtooth lampfish (_Ceratoscopelus townsendi_),162577,226,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Ceratoscopelus warmingii,NA (_Ceratoscopelus warmingii_),623722,224,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+Wormfish,Cerdale,Wormfish (_Cerdale_),172168,2155,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Cetengraulis,NA (_Cetengraulis_),161860,32,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+Anchoveta,Cetengraulis mysticetus,Anchoveta (_Cetengraulis mysticetus_),161862,33,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+NA,Chaenophryne,NA (_Chaenophryne_),164626,982,76143,erdCalCOFIlrvcntCDtoCH.csv
+Tube Blennies,Chaenopsidae,Tube Blennies (_Chaenopsidae_),171550,823,76143,erdCalCOFIlrvcntCDtoCH.csv
+Orangethroat pikeblenny,Chaenopsis alepidota,Orangethroat pikeblenny (_Chaenopsis alepidota_),171467,824,76143,erdCalCOFIlrvcntCDtoCH.csv
+Pacific spadefish,Chaetodipterus zonatus,Pacific spadefish (_Chaetodipterus zonatus_),169540,616,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chaetodipterus zonatus,NA (_Chaetodipterus zonatus_),169540,1735,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chaetodon,NA (_Chaetodon_),169555,1750,76143,erdCalCOFIlrvcntCDtoCH.csv
+Butterflyfishes,Chaetodontidae,Butterflyfishes (_Chaetodontidae_),169554,608,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Champsodon,NA (_Champsodon_),171081,1945,76143,erdCalCOFIlrvcntCDtoCH.csv
+Milkfish,Chanos chanos,Milkfish (_Chanos chanos_),162838,34,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chauliodus,NA (_Chauliodus_),162278,154,76143,erdCalCOFIlrvcntCDtoCH.csv
+Pacific viperfish,Chauliodus macouni,Pacific viperfish (_Chauliodus macouni_),162279,156,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chauliodus sloani,NA (_Chauliodus sloani_),162281,157,76143,erdCalCOFIlrvcntCDtoCH.csv
+Gapers,Chaunacidae,Gapers (_Chaunacidae_),164569,985,76143,erdCalCOFIlrvcntCDtoCH.csv
+"Merwongs, fingerfins",Cheilodactylus,"Merwongs, fingerfins (_Cheilodactylus_)",170253,633,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Cheilopogon,NA (_Cheilopogon_),165433,183,76143,erdCalCOFIlrvcntCDtoCH.csv
+Blackspot flyingfish,Cheilopogon dorsomaculata,Blackspot flyingfish (_Cheilopogon dorsomaculata_),645284,193,76143,erdCalCOFIlrvcntCDtoCH.csv
+Blotchwing blyingfish,Cheilopogon heterurus,Blotchwing blyingfish (_Cheilopogon heterurus_),616688,184,76143,erdCalCOFIlrvcntCDtoCH.csv
+California flyingfish,Cheilopogon pinnatibarbatus,California flyingfish (_Cheilopogon pinnatibarbatus_),616685,178,76143,erdCalCOFIlrvcntCDtoCH.csv
+Whitetip flyingfish,Cheilopogon xenopterus,Whitetip flyingfish (_Cheilopogon xenopterus_),645246,163,76143,erdCalCOFIlrvcntCDtoCH.csv
+Black croaker,Cheilotrema saturnum,Black croaker (_Cheilotrema saturnum_),169358,614,76143,erdCalCOFIlrvcntCDtoCH.csv
+Black brotula,Cherublemma emmelas,Black brotula (_Cherublemma emmelas_),164998,873,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chiasmodon,NA (_Chiasmodon_),171085,1935,76143,erdCalCOFIlrvcntCDtoCH.csv
+Black swallower,Chiasmodon subniger,Black swallower (_Chiasmodon subniger_),171086,816,76143,erdCalCOFIlrvcntCDtoCH.csv
+Swallowers,Chiasmodontidae,Swallowers (_Chiasmodontidae_),171084,815,76143,erdCalCOFIlrvcntCDtoCH.csv
+Spotted cusk-eel,Chilara taylori,Spotted cusk-eel (_Chilara taylori_),165006,872,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chiloconger,NA (_Chiloconger_),635341,363,76143,erdCalCOFIlrvcntCDtoCH.csv
+Burrfishes,Chilomycterus,Burrfishes (_Chilomycterus_),173383,2310,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chirolophis,NA (_Chirolophis_),171565,2007,76143,erdCalCOFIlrvcntCDtoCH.csv
+decorated warbonnet,Chirolophis decoratus,decorated warbonnet (_Chirolophis decoratus_),171572,2009,76143,erdCalCOFIlrvcntCDtoCH.csv
+Roughback sculpin,Chitonotus pugetensis,Roughback sculpin (_Chitonotus pugetensis_),167380,744,76143,erdCalCOFIlrvcntCDtoCH.csv
+False Moray,Chlopsidae,False Moray (_Chlopsidae_),553181,1005,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chlopsis,NA (_Chlopsis_),161157,371,76143,erdCalCOFIlrvcntCDtoCH.csv
+Greeneyes,Chlorophthalmus,Greeneyes (_Chlorophthalmus_),162428,325,76143,erdCalCOFIlrvcntCDtoCH.csv
+Pacific bumper,Chloroscombrus orqueta,Pacific bumper (_Chloroscombrus orqueta_),168671,507,76143,erdCalCOFIlrvcntCDtoCH.csv
+NA,Chromis,NA (_Chromis_),170079,1815,76143,erdCalCOFIlrvcntCDtoCH.csv
+Scissortail damselfish,Chromis atrilobata,Scissortail damselfish (_Chromis atrilobata_),170102,648,76143,erdCalCOFIlrvcntCDtoCH.csv
+Blacksmith,Chromis punctipinnis,Blacksmith (_Chromis punctipinnis_),170085,626,76143,erdCalCOFIlrvcntCDtoCH.csv
+Hawkfishes,Cirrhitidae,Hawkfishes (_Cirrhitidae_),170222,1780,76143,erdCalCOFIlrvcntCItoCO.csv
+Sanddabs,Citharichthys,Sanddabs (_Citharichthys_),172715,924,76143,erdCalCOFIlrvcntCItoCO.csv
+Gulf sanddab,Citharichthys fragilis,Gulf sanddab (_Citharichthys fragilis_),172727,921,76143,erdCalCOFIlrvcntCItoCO.csv
+Mimic sanddab,Citharichthys gordae,Mimic sanddab (_Citharichthys gordae_),616291,912,76143,erdCalCOFIlrvcntCItoCO.csv
+Small sanddab,Citharichthys platophrys,Small sanddab (_Citharichthys platophrys_),616294,920,76143,erdCalCOFIlrvcntCItoCO.csv
+Pacific sanddab,Citharichthys sordidus,Pacific sanddab (_Citharichthys sordidus_),172716,923,76143,erdCalCOFIlrvcntCItoCO.csv
+Speckled sanddab,Citharichthys stigmaeus,Speckled sanddab (_Citharichthys stigmaeus_),172717,925,76143,erdCalCOFIlrvcntCItoCO.csv
+Longfin sanddab,Citharichthys xanthostigma,Longfin sanddab (_Citharichthys xanthostigma_),172726,926,76143,erdCalCOFIlrvcntCItoCO.csv
+NA,Clarkichthys bilineatus,NA (_Clarkichthys bilineatus_),637146,805,76143,erdCalCOFIlrvcntCItoCO.csv
+Arrow goby,Clevelandia ios,Arrow goby (_Clevelandia ios_),171748,804,76143,erdCalCOFIlrvcntCItoCO.csv
+Kelpfishes,Clinidae,Kelpfishes (_Clinidae_),171396,840,76143,erdCalCOFIlrvcntCItoCO.csv
+NA,Clinocottus,NA (_Clinocottus_),167222,1525,76143,erdCalCOFIlrvcntCItoCO.csv
+Wooly sculpin,Clinocottus analis,Wooly sculpin (_Clinocottus analis_),167227,746,76143,erdCalCOFIlrvcntCItoCO.csv
+Pacific herring,Clupea pallasii,Pacific herring (_Clupea pallasii_),551209,20,76143,erdCalCOFIlrvcntCItoCO.csv
+Herrings,Clupeidae,Herrings (_Clupeidae_),161700,15,76143,erdCalCOFIlrvcntCItoCO.csv
+NA,Clupeiformes,NA (_Clupeiformes_),161694,9,76143,erdCalCOFIlrvcntCItoCO.csv
+Atlantic sabertooth,Coccorella atlantica,Atlantic sabertooth (_Coccorella atlantica_),162537,1249,76143,erdCalCOFIlrvcntCItoCO.csv
+Pygmy saury,Cololabis adocetus,Pygmy saury (_Cololabis adocetus_),165610,167,76143,erdCalCOFIlrvcntCItoCO.csv
+Pacific saury,Cololabis saira,Pacific saury (_Cololabis saira_),165609,166,76143,erdCalCOFIlrvcntCItoCO.csv
+Conger Eels,Congridae,Conger Eels (_Congridae_),161324,358,76143,erdCalCOFIlrvcntCItoCO.csv
+NA,Coryphaena,NA (_Coryphaena_),168790,554,76143,erdCalCOFIlrvcntCItoCO.csv
+Pompano dolphinfish,Coryphaena equiselis,Pompano dolphinfish (_Coryphaena equiselis_),168792,557,76143,erdCalCOFIlrvcntCItoCO.csv
+Common dolphinfish,Coryphaena hippurus,Common dolphinfish (_Coryphaena hippurus_),168791,556,76143,erdCalCOFIlrvcntCItoCO.csv
+Dolphinfishes,Coryphaenidae,Dolphinfishes (_Coryphaenidae_),168789,555,76143,erdCalCOFIlrvcntCItoCO.csv
+Grenadiers,Coryphaenoides,Grenadiers (_Coryphaenoides_),165333,891,76143,erdCalCOFIlrvcntCItoCO.csv
+Pacific grenadier,Coryphaenoides acrolepis,Pacific grenadier (_Coryphaenoides acrolepis_),165334,892,76143,erdCalCOFIlrvcntCItoCO.csv
+Ghostly grenadier,Coryphaenoides leptolepis,Ghostly grenadier (_Coryphaenoides leptolepis_),622867,893,76143,erdCalCOFIlrvcntCItoCO.csv
+Sculpins,Cottidae,Sculpins (_Cottidae_),167196,735,76143,erdCalCOFIlrvcntCItoCO.csv
+NA,Cryptacanthodes aleutensis,NA (_Cryptacanthodes aleutensis_),171610,2005,61672,erdCalCOFIlrvcntCPtoDE.csv
+Triplewart seadevil,Cryptopsaras couesii,Triplewart seadevil (_Cryptopsaras couesii_),623188,978,61672,erdCalCOFIlrvcntCPtoDE.csv
+Deepwater kelpfish,Cryptotrema corallinum,Deepwater kelpfish (_Cryptotrema corallinum_),171472,832,61672,erdCalCOFIlrvcntCPtoDE.csv
+South Pacific sandburrower,Crystallodytes cookei,South Pacific sandburrower (_Crystallodytes cookei_),171019,1962,61672,erdCalCOFIlrvcntCPtoDE.csv
+Black surgeonfish,Ctenochaetus hawaiiensis,Black surgeonfish (_Ctenochaetus hawaiiensis_),172306,2200,61770,erdCalCOFIlrvcntCPtoDE.csv
+NA,Cubiceps,NA (_Cubiceps_),172545,522,61672,erdCalCOFIlrvcntCPtoDE.csv
+NA,Cubiceps baxteri,NA (_Cubiceps baxteri_),642573,526,61672,erdCalCOFIlrvcntCPtoDE.csv
+Bigeye cigarfish,Cubiceps pauciradiatus,Bigeye cigarfish (_Cubiceps pauciradiatus_),172546,527,61672,erdCalCOFIlrvcntCPtoDE.csv
+NA,Cyclopsetta,NA (_Cyclopsetta_),172775,930,61672,erdCalCOFIlrvcntCPtoDE.csv
+God's flounder,Cyclopsetta panamensis,God's flounder (_Cyclopsetta panamensis_),616306,939,61672,erdCalCOFIlrvcntCPtoDE.csv
+"Snailfishes, Lumpsuckers",Cyclopteridae,"Snailfishes, Lumpsuckers (_Cyclopteridae_)",167483,770,61672,erdCalCOFIlrvcntCPtoDE.csv
+NA,Cyclothone,NA (_Cyclothone_),162164,76,61672,erdCalCOFIlrvcntCPtoDE.csv
+Benttooth bristlemouth,Cyclothone acclinidens,Benttooth bristlemouth (_Cyclothone acclinidens_),162172,77,61721,erdCalCOFIlrvcntCPtoDE.csv
+Slender bristlemouth,Cyclothone pseudopallida,Slender bristlemouth (_Cyclothone pseudopallida_),162175,79,61721,erdCalCOFIlrvcntCPtoDE.csv
+Showy bristlemouth,Cyclothone signata,Showy bristlemouth (_Cyclothone signata_),162168,78,61672,erdCalCOFIlrvcntCPtoDE.csv
+Bobtail eel,Cyema atrum,Bobtail eel (_Cyema atrum_),161632,367,61672,erdCalCOFIlrvcntCPtoDE.csv
+Bobtail Eels,Cyematidae,Bobtail Eels (_Cyematidae_),161630,368,61672,erdCalCOFIlrvcntCPtoDE.csv
+Tonguefishes,Cynoglossidae,Tonguefishes (_Cynoglossidae_),173060,965,61672,erdCalCOFIlrvcntCPtoDE.csv
+Sand stargazers,Dactyloscopidae,Sand stargazers (_Dactyloscopidae_),171036,817,61672,erdCalCOFIlrvcntCPtoDE.csv
+Bottlelight,Danaphos oculatus,Bottlelight (_Danaphos oculatus_),162232,84,61672,erdCalCOFIlrvcntCPtoDE.csv
+Scads,Decapterus,Scads (_Decapterus_),168723,508,61672,erdCalCOFIlrvcntCPtoDE.csv
+Longneck eel,Derichthys serpentinus,Longneck eel (_Derichthys serpentinus_),161601,1025,61672,erdCalCOFIlrvcntCPtoDE.csv
+Whiptail ribbonfish,Desmodema lorum,Whiptail ribbonfish (_Desmodema lorum_),166351,385,61672,erdCalCOFIlrvcntCPtoDE.csv
+Headlightfishes,Diaphus,Headlightfishes (_Diaphus_),162583,228,76143,erdCalCOFIlrvcntDHtoEC.csv
+Pacific headlightfish,Diaphus pacificus,Pacific headlightfish (_Diaphus pacificus_),623790,229,76143,erdCalCOFIlrvcntDHtoEC.csv
+California headlightfish,Diaphus theta,California headlightfish (_Diaphus theta_),162584,227,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Diodon,NA (_Diodon_),173390,424,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Diodon eydouxii,NA (_Diodon eydouxii_),615870,421,76143,erdCalCOFIlrvcntDHtoEC.csv
+Balloonfish,Diodon holocanthus,Balloonfish (_Diodon holocanthus_),173392,422,76143,erdCalCOFIlrvcntDHtoEC.csv
+Porcupinefish,Diodon hystrix,Porcupinefish (_Diodon hystrix_),173391,419,76143,erdCalCOFIlrvcntDHtoEC.csv
+Porcupinefishes,Diodontidae,Porcupinefishes (_Diodontidae_),173382,2309,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Diogenichthys,NA (_Diogenichthys_),162675,241,76143,erdCalCOFIlrvcntDHtoEC.csv
+Diogenes lanternfish,Diogenichthys laternatus,Diogenes lanternfish (_Diogenichthys laternatus_),162677,242,76143,erdCalCOFIlrvcntDHtoEC.csv
+Dwarf lanternfish,Loweina rara,Dwarf lanternfish (_Loweina rara_),162717,270,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Diplectrum,NA (_Diplectrum_),167791,433,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Diplophos,NA (_Diplophos_),162179,86,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Diplophos proximus,NA (_Diplophos proximus_),622691,85,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Diplophos taenia,NA (_Diplophos taenia_),162181,87,76143,erdCalCOFIlrvcntDHtoEC.csv
+Ribbon snake mackerel,Diplospinus multistriatus,Ribbon snake mackerel (_Diplospinus multistriatus_),172376,597,76143,erdCalCOFIlrvcntDHtoEC.csv
+Parin's spinyfin,Diretmichthys parini,Parin's spinyfin (_Diretmichthys parini_),622111,1411,76143,erdCalCOFIlrvcntDHtoEC.csv
+Silver spinyfin,Diretmoides pauciradiatus,Silver spinyfin (_Diretmoides pauciradiatus_),622112,391,76143,erdCalCOFIlrvcntDHtoEC.csv
+Silver spinyfin,Diretmus argenteus,Silver spinyfin (_Diretmus argenteus_),166133,1412,76143,erdCalCOFIlrvcntDHtoEC.csv
+Disintegrated fish larvae,Disintegrated fish larvae,Disintegrated fish larvae (_Disintegrated fish larvae_),NaN,2,76143,erdCalCOFIlrvcntDHtoEC.csv
+Longsnout blacksmelt,Dolicholagus longirostris,Longsnout blacksmelt (_Dolicholagus longirostris_),623331,73,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Dolichopteryx,NA (_Dolichopteryx_),162102,1100,76143,erdCalCOFIlrvcntDHtoEC.csv
+Brownsnout spookfish,Dolichopteryx longipes,Brownsnout spookfish (_Dolichopteryx longipes_),162103,52,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Dolopichthys,NA (_Dolopichthys_),164635,976,76143,erdCalCOFIlrvcntDHtoEC.csv
+Pacific fat sleeper,Dormitator latifrons,Pacific fat sleeper (_Dormitator latifrons_),171918,803,76143,erdCalCOFIlrvcntDHtoEC.csv
+Remoras,Echeneidae,Remoras (_Echeneidae_),168567,1656,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Echiodon,NA (_Echiodon_),165114,1323,76143,erdCalCOFIlrvcntDHtoEC.csv
+NA,Echiodon exsilium,NA (_Echiodon exsilium_),165117,876,76143,erdCalCOFIlrvcntDHtoEC.csv
+Rainbow runner,Elagatis bipinnulatus,Rainbow runner (_Elagatis bipinnulatus_),642020,504,76143,erdCalCOFIlrvcntEDtoEU.csv
+Chubby flashlightfish,Electrona risso,Chubby flashlightfish (_Electrona risso_),623732,243,76143,erdCalCOFIlrvcntEDtoEU.csv
+Sleepers,Eleotridae,Sleepers (_Eleotridae_),172171,807,76143,erdCalCOFIlrvcntEDtoEU.csv
+Machete,Elops affinis,Machete (_Elops affinis_),161112,4,76143,erdCalCOFIlrvcntEDtoEU.csv
+Deepsea sole,Embassichthys bathybius,Deepsea sole (_Embassichthys bathybius_),172866,961,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Encheliophis,NA (_Encheliophis_),165119,1325,76143,erdCalCOFIlrvcntEDtoEU.csv
+Anchovies,Engraulidae,Anchovies (_Engraulidae_),553173,25,76143,erdCalCOFIlrvcntEDtoEU.csv
+Buccaneer anchovy,Encrasicholina punctifer,Buccaneer anchovy (_Encrasicholina punctifer_),161879,1075,76143,erdCalCOFIlrvcntEDtoEU.csv
+Northern anchovy,Engraulis mordax,Northern anchovy (_Engraulis mordax_),161828,31,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Engraulis ringens,NA (_Engraulis ringens_),551340,28,76143,erdCalCOFIlrvcntEDtoEU.csv
+Speckledtail flounder,Engyophrys sanctilaurentii,Speckledtail flounder (_Engyophrys sanctilaurentii_),616354,931,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Engyprosopon,NA (_Engyprosopon_),172816,2275,76143,erdCalCOFIlrvcntEDtoEU.csv
+Buffalo sculpin,Enophrys bison,Buffalo sculpin (_Enophrys bison_),167267,751,76143,erdCalCOFIlrvcntEDtoEU.csv
+Notchfin blenny,Entomacrodus chiostictus,Notchfin blenny (_Entomacrodus chiostictus_),171184,859,76143,erdCalCOFIlrvcntEDtoEU.csv
+Petrale sole,Eopsetta jordani,Petrale sole (_Eopsetta jordani_),172868,960,76143,erdCalCOFIlrvcntEDtoEU.csv
+Spadefishes,Ephippidae,Spadefishes (_Ephippidae_),553178,615,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Epigonus,NA (_Epigonus_),168295,1650,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Epinephelinae,NA (_Epinephelinae_),551018,427,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Epinephelus,NA (_Epinephelus_),167694,426,76143,erdCalCOFIlrvcntEDtoEU.csv
+Spotted cabrilla,Epinephelus analogus,Spotted cabrilla (_Epinephelus analogus_),167697,1600,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Erotelis armiger,NA (_Erotelis armiger_),637280,808,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Etropus,NA (_Etropus_),172728,913,76143,erdCalCOFIlrvcntEDtoEU.csv
+Fringed flounder,Etropus crossotus,Fringed flounder (_Etropus crossotus_),172729,928,76143,erdCalCOFIlrvcntEDtoEU.csv
+Peruvian flounder,Etropus peruvianus,Peruvian flounder (_Etropus peruvianus_),616374,938,76143,erdCalCOFIlrvcntEDtoEU.csv
+Round herring,Etrumeus teres,Round herring (_Etrumeus teres_),161743,12,76143,erdCalCOFIlrvcntEDtoEU.csv
+Pacific flagfin mojarra,Eucinostomus,Pacific flagfin mojarra (_Eucinostomus_),169014,496,76143,erdCalCOFIlrvcntEDtoEU.csv
+Umbrellamouth gulper,Eurypharynx pelecanoides,Umbrellamouth gulper (_Eurypharynx pelecanoides_),161653,348,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Eustomias,NA (_Eustomias_),162248,136,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Eutaeniophorus,NA (_Eutaeniophorus_),162814,351,76143,erdCalCOFIlrvcntEDtoEU.csv
+Festive ribbontail,Eutaeniophorus festivus,Festive ribbontail (_Eutaeniophorus festivus_),162815,352,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Euthynnus,NA (_Euthynnus_),172399,564,76143,erdCalCOFIlrvcntEDtoEU.csv
+Black skipjack,Euthynnus lineatus,Black skipjack (_Euthynnus lineatus_),172405,565,76143,erdCalCOFIlrvcntEDtoEU.csv
+NA,Evermannella,NA (_Evermannella_),162541,1250,76143,erdCalCOFIlrvcntEVtoGN.csv
+NA,Evermannella ahlstromi,NA (_Evermannella ahlstromi_),644723,347,76143,erdCalCOFIlrvcntEVtoGN.csv
+Sabertooth,Evermannella indica,Sabertooth (_Evermannella indica_),162544,346,76143,erdCalCOFIlrvcntEVtoGN.csv
+Sabertooth Fishes,Evermannellidae,Sabertooth Fishes (_Evermannellidae_),162535,345,76143,erdCalCOFIlrvcntEVtoGN.csv
+Flyingfishes,Exocoetidae,Flyingfishes (_Exocoetidae_),165431,180,76143,erdCalCOFIlrvcntEVtoGN.csv
+NA,Exocoetus,NA (_Exocoetus_),165506,158,76143,erdCalCOFIlrvcntEVtoGN.csv
+Barbel flyingfish,Exocoetus monocirrhus,Barbel flyingfish (_Exocoetus monocirrhus_),165509,169,76143,erdCalCOFIlrvcntEVtoGN.csv
+Tropical two-wing flyingfish,Exocoetus volitans,Tropical two-wing flyingfish (_Exocoetus volitans_),165508,159,76143,erdCalCOFIlrvcntEVtoGN.csv
+Dogface witch eel,Facciolella gilberti,Dogface witch eel (_Facciolella gilberti_),161304,353,76143,erdCalCOFIlrvcntEVtoGN.csv
+Deepwater cornetfish,Fistularia corneta,Deepwater cornetfish (_Fistularia corneta_),644991,1485,76143,erdCalCOFIlrvcntEVtoGN.csv
+Cornetfishes,Fistulariidae,Cornetfishes (_Fistulariidae_),166414,785,76143,erdCalCOFIlrvcntEVtoGN.csv
+Sharpchin flyingfish,Fodiator acutus,Sharpchin flyingfish (_Fodiator acutus_),165511,185,76143,erdCalCOFIlrvcntEVtoGN.csv
+NA,Gadiformes,NA (_Gadiformes_),164665,1300,76143,erdCalCOFIlrvcntEVtoGN.csv
+Pacific cod,Gadus macrocephalus,Pacific cod (_Gadus macrocephalus_),164711,904,76143,erdCalCOFIlrvcntEVtoGN.csv
+Snake Mackerels,Gempylidae,Snake Mackerels (_Gempylidae_),172354,590,76143,erdCalCOFIlrvcntEVtoGN.csv
+Snake Mackerel,Gempylus serpens,Snake Mackerel (_Gempylus serpens_),172360,591,76143,erdCalCOFIlrvcntEVtoGN.csv
+White croaker,Genyonemus lineatus,White croaker (_Genyonemus lineatus_),169257,612,76143,erdCalCOFIlrvcntEVtoGN.csv
+Mojarras,Gerreidae,Mojarras (_Gerreidae_),169013,495,76143,erdCalCOFIlrvcntEVtoGN.csv
+Spotted kelpfish,Gibbonsia elegans,Spotted kelpfish (_Gibbonsia elegans_),171401,2015,76143,erdCalCOFIlrvcntEVtoGN.csv
+NA,Gibbonsia metzi,NA (_Gibbonsia metzi_),171398,2016,76143,erdCalCOFIlrvcntEVtoGN.csv
+NA,Gibbonsia spp.,NA (_Gibbonsia spp._),171397,841,76143,erdCalCOFIlrvcntEVtoGN.csv
+Whipnoses,Gigantactinidae,Whipnoses (_Gigantactinidae_),164642,995,76143,erdCalCOFIlrvcntEVtoGN.csv
+Whipnoses,Gigantactis,Whipnoses (_Gigantactis_),164643,996,76143,erdCalCOFIlrvcntEVtoGN.csv
+Telescopefish,Gigantura indica,Telescopefish (_Gigantura indica_),644689,1180,76143,erdCalCOFIlrvcntEVtoGN.csv
+sand stargazer,Gillellus,sand stargazer (_Gillellus_),171037,2020,76143,erdCalCOFIlrvcntEVtoGN.csv
+Longjaw mudsucker,Gillichthys mirabilis,Longjaw mudsucker (_Gillichthys mirabilis_),171967,2115,76143,erdCalCOFIlrvcntEVtoGN.csv
+Opaleye,Girella nigricans,Opaleye (_Girella nigricans_),169515,656,76143,erdCalCOFIlrvcntEVtoGN.csv
+Rex sole,Glyptocephalus zachirus,Rex sole (_Glyptocephalus zachirus_),172978,941,76143,erdCalCOFIlrvcntEVtoGN.csv
+Golden jack,Gnathanodon speciosus,Golden jack (_Gnathanodon speciosus_),168753,491,76143,erdCalCOFIlrvcntEVtoGN.csv
+NA,Gnatholepis,NA (_Gnatholepis_),171827,2120,76143,erdCalCOFIlrvcntEVtoGN.csv
+Catalina conger,Gnathophis cinctus,Catalina conger (_Gnathophis cinctus_),635714,1020,76143,erdCalCOFIlrvcntEVtoGN.csv
+Clingfishes,Gobiesocidae,Clingfishes (_Gobiesocidae_),164457,825,76143,erdCalCOFIlrvcntGOtoHA.csv
+NA,Gobiesox,NA (_Gobiesox_),164458,1357,76143,erdCalCOFIlrvcntGOtoHA.csv
+Lined clingfish,Gobiesox eugrammus,Lined clingfish (_Gobiesox eugrammus_),164461,827,76143,erdCalCOFIlrvcntGOtoHA.csv
+Northern clingfish,Gobiesox maeandricus,Northern clingfish (_Gobiesox maeandricus_),164459,826,76143,erdCalCOFIlrvcntGOtoHA.csv
+California clingfish,Gobiesox rhessodon,California clingfish (_Gobiesox rhessodon_),164464,818,76143,erdCalCOFIlrvcntGOtoHA.csv
+Gobies,Gobiidae,Gobies (_Gobiidae_),171746,795,76143,erdCalCOFIlrvcntGOtoHA.csv
+NA,Gobulus crescentalis,NA (_Gobulus crescentalis_),637464,2125,76143,erdCalCOFIlrvcntGOtoHA.csv
+Evermann's lanternfish,Symbolophorus evermanni,Evermann's lanternfish (_Symbolophorus evermanni_),162671,297,55217,erdCalCOFIlrvcntSUtoTE.csv
+NA,Gonostoma,NA (_Gonostoma_),162182,80,76143,erdCalCOFIlrvcntGOtoHA.csv
+Atlantic fangjaw,Gonostoma atlanticum,Atlantic fangjaw (_Gonostoma atlanticum_),162183,81,76143,erdCalCOFIlrvcntGOtoHA.csv
+Bristlemouths,Gonostomatidae,Bristlemouths (_Gonostomatidae_),162163,75,76143,erdCalCOFIlrvcntGOtoHA.csv
+Curious wormfish,Gunnellichthys curiosus,Curious wormfish (_Gunnellichthys curiosus_),637470,2160,76143,erdCalCOFIlrvcntGOtoHA.csv
+NA,Gymnothorax,NA (_Gymnothorax_),161185,349,76143,erdCalCOFIlrvcntGOtoHA.csv
+California moray,Gymnothorax mordax,California moray (_Gymnothorax mordax_),161194,372,76143,erdCalCOFIlrvcntGOtoHA.csv
+Grunts,Haemulidae,Grunts (_Haemulidae_),169055,600,76143,erdCalCOFIlrvcntGOtoHA.csv
+NA,Haemulon,NA (_Haemulon_),169057,456,76143,erdCalCOFIlrvcntGOtoHA.csv
+NA,Halichoeres,NA (_Halichoeres_),170501,636,76143,erdCalCOFIlrvcntGOtoHA.csv
+chameleon wrasse,Halichoeres dispilus,chameleon wrasse (_Halichoeres dispilus_),613701,1855,76143,erdCalCOFIlrvcntGOtoHA.csv
+Rock wrasse,Halichoeres semicinctus,Rock wrasse (_Halichoeres semicinctus_),170511,637,76143,erdCalCOFIlrvcntGOtoHA.csv
+Flatiron herring,Harengula thrissina,Flatiron herring (_Harengula thrissina_),161757,21,76143,erdCalCOFIlrvcntGOtoHA.csv
+NA,Hemanthias,NA (_Hemanthias_),167799,448,76143,erdCalCOFIlrvcntHBtoHI.csv
+Rose threadfin bass,Hemanthias peruanus,Rose threadfin bass (_Hemanthias peruanus_),167802,437,76143,erdCalCOFIlrvcntHBtoHI.csv
+Deepwater thread bass (splittail bass),Hemanthias signifer,Deepwater thread bass (splittail bass) (_Hemanthias signifer_),167804,439,76143,erdCalCOFIlrvcntHBtoHI.csv
+NA,Hemicaranx,NA (_Hemicaranx_),168739,510,76143,erdCalCOFIlrvcntHBtoHI.csv
+NA,Hemilepidotus,NA (_Hemilepidotus_),167276,1520,76143,erdCalCOFIlrvcntHBtoHI.csv
+Red Irish lord,Hemilepidotus hemilepidotus,Red Irish lord (_Hemilepidotus hemilepidotus_),167279,740,76143,erdCalCOFIlrvcntHBtoHI.csv
+Brown Irish lord,Hemilepidotus spinosus,Brown Irish lord (_Hemilepidotus spinosus_),167283,739,76143,erdCalCOFIlrvcntHBtoHI.csv
+Halfbeaks,Hemiramphidae,Halfbeaks (_Hemiramphidae_),553172,170,76143,erdCalCOFIlrvcntHBtoHI.csv
+Polynesian halfbeak,Hemiramphus depauperatus,Polynesian halfbeak (_Hemiramphus depauperatus_),165464,1375,76143,erdCalCOFIlrvcntHBtoHI.csv
+Longfin halfbeak,Hemiramphus saltator,Longfin halfbeak (_Hemiramphus saltator_),165463,177,76143,erdCalCOFIlrvcntHBtoHI.csv
+Zebraperch,Hermosilla azurea,Zebraperch (_Hermosilla azurea_),169520,664,76143,erdCalCOFIlrvcntHBtoHI.csv
+Cortez garden eel,Heteroconger digueti,Cortez garden eel (_Heteroconger digueti_),635966,366,76143,erdCalCOFIlrvcntHBtoHI.csv
+Giant kelpfish,Heterostichus rostratus,Giant kelpfish (_Heterostichus rostratus_),171476,842,76143,erdCalCOFIlrvcntHBtoHI.csv
+Greenlings,Hexagrammidae,Greenlings (_Hexagrammidae_),167108,715,76143,erdCalCOFIlrvcntHBtoHI.csv
+NA,Hexagrammos,NA (_Hexagrammos_),167109,717,76143,erdCalCOFIlrvcntHBtoHI.csv
+Kelp greenling,Hexagrammos decagrammus,Kelp greenling (_Hexagrammos decagrammus_),167110,718,76143,erdCalCOFIlrvcntHBtoHI.csv
+Rock greenling,Hexagrammos lagocephalus,Rock greenling (_Hexagrammos lagocephalus_),167111,719,76143,erdCalCOFIlrvcntHBtoHI.csv
+Whitespotted greenling,Hexagrammos stelleri,Whitespotted greenling (_Hexagrammos stelleri_),167113,1500,76143,erdCalCOFIlrvcntHBtoHI.csv
+NA,Hildebrandia,NA (_Hildebrandia_),161387,360,76143,erdCalCOFIlrvcntHBtoHI.csv
+NA,Himantolophus,NA (_Himantolophus_),164623,1330,76143,erdCalCOFIlrvcntHBtoHI.csv
+NA,Hippoglossina,NA (_Hippoglossina_),172782,933,76143,erdCalCOFIlrvcntHBtoHI.csv
+Bigmouth sole,Hippoglossina stomata,Bigmouth sole (_Hippoglossina stomata_),172784,929,76143,erdCalCOFIlrvcntHBtoHI.csv
+Flathead sole,Hippoglossoides elassodon,Flathead sole (_Hippoglossoides elassodon_),172875,947,76143,erdCalCOFIlrvcntHBtoHI.csv
+Pacific halibut,Hippoglossus stenolepis,Pacific halibut (_Hippoglossus stenolepis_),172932,945,76143,erdCalCOFIlrvcntHBtoHI.csv
+NA,Hirundichthys,NA (_Hirundichthys_),165515,186,76143,erdCalCOFIlrvcntHBtoHI.csv
+Banded flyingfish,Hirundichthys marginatus,Banded flyingfish (_Hirundichthys marginatus_),645257,187,76143,erdCalCOFIlrvcntHBtoHI.csv
+Mirrorwing flyingfish,Hirundichthys speculiger,Mirrorwing flyingfish (_Hirundichthys speculiger_),165517,192,76143,erdCalCOFIlrvcntHBtoHI.csv
+Squirrelfishes,Holocentridae,Squirrelfishes (_Holocentridae_),166170,413,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Holocentrinae,NA (_Holocentrinae_),622094,1425,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Hoplopagrus guentheri,NA (_Hoplopagrus guentheri_),643073,1700,76143,erdCalCOFIlrvcntHJtoID.csv
+Pike-conger,Hoplunnis,Pike-conger (_Hoplunnis_),161289,1060,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Hoplunnis sicarius,NA (_Hoplunnis sicarius_),635754,1062,76143,erdCalCOFIlrvcntHJtoID.csv
+Pelagic basslet,Howella,Pelagic basslet (_Howella_),168331,446,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Howella pammelas,NA (_Howella pammelas_),641889,447,76143,erdCalCOFIlrvcntHJtoID.csv
+Pelagic basslets,Howellidae,Pelagic basslets (_Howellidae_),641836,443,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Hygophum,NA (_Hygophum_),162692,250,76143,erdCalCOFIlrvcntHJtoID.csv
+California flashlightfish,Protomyctophum crockeri,California flashlightfish (_Protomyctophum crockeri_),162685,288,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Golden lanternfish,Myctophum aurolaternatum,Golden lanternfish (_Myctophum aurolaternatum_),162727,272,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Hygophum proximum,NA (_Hygophum proximum_),623721,253,76143,erdCalCOFIlrvcntHJtoID.csv
+Lanternfish,Notoscopelus caudispinosus,Lanternfish (_Notoscopelus caudispinosus_),162657,1275,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Hypomesus pretiosus,NA (_Hypomesus pretiosus_),162030,47,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Hyporhamphus,NA (_Hyporhamphus_),165473,194,76143,erdCalCOFIlrvcntHJtoID.csv
+Acute halfbeak,Hyporhamphus pacificus,Acute halfbeak (_Hyporhamphus pacificus_),165493,1380,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Hyporhamphus rosae,NA (_Hyporhamphus rosae_),165477,1381,76143,erdCalCOFIlrvcntHJtoID.csv
+Silverstripe helfbeak,Hyporhamphus unifasciatus,Silverstripe helfbeak (_Hyporhamphus unifasciatus_),165474,1383,76143,erdCalCOFIlrvcntHJtoID.csv
+Barnaclebill blenny,Hypsoblennius brevipinnis,Barnaclebill blenny (_Hypsoblennius brevipinnis_),636379,864,76143,erdCalCOFIlrvcntHJtoID.csv
+Bay blenny,Hypsoblennius gentilis,Bay blenny (_Hypsoblennius gentilis_),171158,852,76143,erdCalCOFIlrvcntHJtoID.csv
+Rockpool blenny,Hypsoblennius gilberti,Rockpool blenny (_Hypsoblennius gilberti_),171159,854,76143,erdCalCOFIlrvcntHJtoID.csv
+Mussel blenny,Hypsoblennius jenkinsi,Mussel blenny (_Hypsoblennius jenkinsi_),171160,853,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Hypsoblennius proteus,NA (_Hypsoblennius proteus_),636384,863,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Hypsoblennius spp.,NA (_Hypsoblennius spp._),171155,851,76143,erdCalCOFIlrvcntHJtoID.csv
+Diamond turbot,Hypsopsetta guttulata,Diamond turbot (_Hypsopsetta guttulata_),172945,942,76143,erdCalCOFIlrvcntHJtoID.csv
+Garibaldi,Hypsypops rubicundus,Garibaldi (_Hypsypops rubicundus_),170120,628,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Icelinus,NA (_Icelinus_),167290,741,76143,erdCalCOFIlrvcntHJtoID.csv
+Yellowchin sculpin,Icelinus quadriseriatus,Yellowchin sculpin (_Icelinus quadriseriatus_),167298,747,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Ichthyococcus,NA (_Ichthyococcus_),162198,88,76143,erdCalCOFIlrvcntHJtoID.csv
+Bulldog lightfish,Ichthyococcus irregularis,Bulldog lightfish (_Ichthyococcus irregularis_),622698,89,76143,erdCalCOFIlrvcntHJtoID.csv
+Medusafish,Icichthys lockingtoni,Medusafish (_Icichthys lockingtoni_),172510,536,76143,erdCalCOFIlrvcntHJtoID.csv
+Ragfish,Icosteus aenigmaticus,Ragfish (_Icosteus aenigmaticus_),171663,541,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Idiacanthus,NA (_Idiacanthus_),162299,162,76143,erdCalCOFIlrvcntHJtoID.csv
+Pacific blackdragon,Idiacanthus antrostomus,Pacific blackdragon (_Idiacanthus antrostomus_),162301,161,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Idiacanthus fasciola,NA (_Idiacanthus fasciola_),162300,1176,76143,erdCalCOFIlrvcntHJtoID.csv
+Cheekspot goby,Ilypnus gilberti,Cheekspot goby (_Ilypnus gilberti_),171892,802,76143,erdCalCOFIlrvcntIEtoLA.csv
+Pacific razorfish,Iniistius pavo,Pacific razorfish (_Iniistius pavo_),170765,1900,76143,erdCalCOFIlrvcntIEtoLA.csv
+Butter sole,Isopsetta isolepis,Butter sole (_Isopsetta isolepis_),172919,962,76143,erdCalCOFIlrvcntIEtoLA.csv
+Billfishes,Istiophoridae,Billfishes (_Istiophoridae_),172486,584,76143,erdCalCOFIlrvcntIEtoLA.csv
+Sailfish,Istiophorus platypterus,Sailfish (_Istiophorus platypterus_),172488,586,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Kali,NA (_Kali_),171087,814,76143,erdCalCOFIlrvcntIEtoLA.csv
+Needletooth swallower,Kali normani,Needletooth swallower (_Kali normani_),171091,878,76143,erdCalCOFIlrvcntIEtoLA.csv
+smooth stargazer,Kathetostomus averruncus,smooth stargazer (_Kathetostomus averruncus_),171063,1975,76143,erdCalCOFIlrvcntIEtoLA.csv
+Skipjack tuna,Katsuwonus pelamis,Skipjack tuna (_Katsuwonus pelamis_),172401,567,76143,erdCalCOFIlrvcntIEtoLA.csv
+Sea Chubs,Kyphosidae,Sea Chubs (_Kyphosidae_),169503,660,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Kyphosus,NA (_Kyphosus_),169504,661,76143,erdCalCOFIlrvcntIEtoLA.csv
+Wrasses,Labridae,Wrasses (_Labridae_),170477,635,76143,erdCalCOFIlrvcntIEtoLA.csv
+Labrisomid kelpfishes,Labrisomidae,Labrisomid kelpfishes (_Labrisomidae_),553227,831,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Labrisomus,NA (_Labrisomus_),171408,829,76143,erdCalCOFIlrvcntIEtoLA.csv
+Porehead blenny,Labrisomus multiporosus,Porehead blenny (_Labrisomus multiporosus_),638559,833,76143,erdCalCOFIlrvcntIEtoLA.csv
+Largemouth blenny,Labrisomus xanti,Largemouth blenny (_Labrisomus xanti_),171418,834,76143,erdCalCOFIlrvcntIEtoLA.csv
+Spiny boxfish,Lactoria diaphana,Spiny boxfish (_Lactoria diaphana_),173257,410,76143,erdCalCOFIlrvcntIEtoLA.csv
+Thornback cowfish,Lactoria fornasini,Thornback cowfish (_Lactoria fornasini_),173255,408,76143,erdCalCOFIlrvcntIEtoLA.csv
+Bighead mora,Laemonema verecundum,Bighead mora (_Laemonema verecundum_),623030,1310,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Lampadena,NA (_Lampadena_),162702,248,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Lampadena luminosa,NA (_Lampadena luminosa_),162706,257,76143,erdCalCOFIlrvcntIEtoLA.csv
+Sunbeam lampfish,Lampadena urophaos,Sunbeam lampfish (_Lampadena urophaos_),162703,256,76143,erdCalCOFIlrvcntIEtoLA.csv
+Lampfish,Lampanyctus,Lampfish (_Lampanyctus_),162632,1259,76143,erdCalCOFIlrvcntIEtoLA.csv
+Spinytail lampfish,Lampanyctus acanthurus,Spinytail lampfish (_Lampanyctus acanthurus_),623827,1260,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Lampanyctus nobilis,NA (_Lampanyctus nobilis_),162643,277,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Lampanyctus omostigma,NA (_Lampanyctus omostigma_),182885,263,76143,erdCalCOFIlrvcntIEtoLA.csv
+Slimtail lampfish,Lampanyctus parvicauda,Slimtail lampfish (_Lampanyctus parvicauda_),623832,264,76143,erdCalCOFIlrvcntIEtoLA.csv
+Longfin lampfish,Lampanyctus steinbecki,Longfin lampfish (_Lampanyctus steinbecki_),623836,265,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Lampanyctus tenuiformis,NA (_Lampanyctus tenuiformis_),623716,267,76143,erdCalCOFIlrvcntIEtoLA.csv
+Opah,Lampris guttatus,Opah (_Lampris guttatus_),166326,1295,76143,erdCalCOFIlrvcntIEtoLA.csv
+NA,Larimus,NA (_Larimus_),169268,599,76143,erdCalCOFIlrvcntIEtoLA.csv
+Escolar,Lepidocybium flavobrunneum,Escolar (_Lepidocybium flavobrunneum_),172362,593,76143,erdCalCOFIlrvcntLBtoLI.csv
+Bay goby,Lepidogobius lepidus,Bay goby (_Lepidogobius lepidus_),171762,797,76143,erdCalCOFIlrvcntLBtoLI.csv
+Rock sole,Lepidopsetta bilineata,Rock sole (_Lepidopsetta bilineata_),172917,944,76143,erdCalCOFIlrvcntLBtoLI.csv
+Hawaiian Ridge scabbardfish,Lepidopus calcar,Hawaiian Ridge scabbardfish (_Lepidopus calcar_),551142,2250,76143,erdCalCOFIlrvcntLBtoLI.csv
+Pacific scabbardfish,Lepidopus fitchi,Pacific scabbardfish (_Lepidopus fitchi_),172393,596,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lepophidium,NA (_Lepophidium_),164823,879,76143,erdCalCOFIlrvcntLBtoLI.csv
+Specklefin cusk-eel,Lepophidium negropinna,Specklefin cusk-eel (_Lepophidium negropinna_),623190,897,76143,erdCalCOFIlrvcntLBtoLI.csv
+Botchfin cusk-eel,Lepophidium stigmatistium,Botchfin cusk-eel (_Lepophidium stigmatistium_),164838,3500,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Leptocephalus giganteus,NA (_Leptocephalus giganteus_),635825,379,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Leptocephalus holti,NA (_Leptocephalus holti_),635826,369,76143,erdCalCOFIlrvcntLBtoLI.csv
+Pacific staghorn sculpin,Leptocottus armatus,Pacific staghorn sculpin (_Leptocottus armatus_),167302,742,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Leptostomias,NA (_Leptostomias_),162254,137,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestidiops,NA (_Lestidiops_),162476,312,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestidiops indopacifica,NA (_Lestidiops indopacifica_),644790,1222,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestidiops neles,NA (_Lestidiops neles_),644724,313,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestidiops pacificus,NA (_Lestidiops pacificus_),644725,314,76143,erdCalCOFIlrvcntLBtoLI.csv
+Slender barracudina,Lestidiops ringens,Slender barracudina (_Lestidiops ringens_),644717,311,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestidium,NA (_Lestidium_),162464,323,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestrolepis,NA (_Lestrolepis_),162515,1228,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestrolepis intermedia,NA (_Lestrolepis intermedia_),162516,1230,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lestrolepis japonica,NA (_Lestrolepis japonica_),644793,1231,76143,erdCalCOFIlrvcntLBtoLI.csv
+California grunion,Leuresthes tenuis,California grunion (_Leuresthes tenuis_),166014,174,76143,erdCalCOFIlrvcntLBtoLI.csv
+Northern smoothtongue,Leuroglossus schmidti,Northern smoothtongue (_Leuroglossus schmidti_),162098,74,76143,erdCalCOFIlrvcntLBtoLI.csv
+California smoothtongue,Leuroglossus stilbius,California smoothtongue (_Leuroglossus stilbius_),162097,72,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Leuroglossus urotranus,NA (_Leuroglossus urotranus_),182856,64,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Limnichthys,NA (_Limnichthys_),171026,1964,76143,erdCalCOFIlrvcntLBtoLI.csv
+Netdevils,Linophrynidae,Netdevils (_Linophrynidae_),164661,993,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Liparis,NA (_Liparis_),167550,771,76143,erdCalCOFIlrvcntLBtoLI.csv
+Tidepool snailfish,Liparis florae,Tidepool snailfish (_Liparis florae_),167559,772,76143,erdCalCOFIlrvcntLBtoLI.csv
+Slipskin snailfish,Liparis fucensis,Slipskin snailfish (_Liparis fucensis_),167560,773,76143,erdCalCOFIlrvcntLBtoLI.csv
+Slimy snailfish,Liparis mucosus,Slimy snailfish (_Liparis mucosus_),167570,774,76143,erdCalCOFIlrvcntLBtoLI.csv
+Showy snailfish,Liparis pulchellus,Showy snailfish (_Liparis pulchellus_),167572,775,76143,erdCalCOFIlrvcntLBtoLI.csv
+Popeye blacksmelt,Lipolagus ochotensis,Popeye blacksmelt (_Lipolagus ochotensis_),623625,68,76143,erdCalCOFIlrvcntLBtoLI.csv
+NA,Lobianchia gemellarii,NA (_Lobianchia gemellarii_),623876,266,76143,erdCalCOFIlrvcntLJtoMA.csv
+Tripletail,Lobotes surinamensis,Tripletail (_Lobotes surinamensis_),169007,479,76143,erdCalCOFIlrvcntLJtoMA.csv
+Goosefishes,Lophiidae,Goosefishes (_Lophiidae_),164497,975,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Lophiiformes,NA (_Lophiiformes_),164495,971,76143,erdCalCOFIlrvcntLJtoMA.csv
+Spottedtail goosefish,Lophiodes caulinaris,Spottedtail goosefish (_Lophiodes caulinaris_),164508,956,76143,erdCalCOFIlrvcntLJtoMA.csv
+Threadfin goosefish,Lophiodes spilurus,Threadfin goosefish (_Lophiodes spilurus_),649761,903,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Lophodolos indicus,NA (_Lophodolos indicus_),690540,1345,76143,erdCalCOFIlrvcntLJtoMA.csv
+Lanternfishes,Myctophidae,Lanternfishes (_Myctophidae_),162575,215,76143,erdCalCOFIlrvcntMPtoNA.csv
+Snappers,Lutjanidae,Snappers (_Lutjanidae_),168845,450,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Lutjanus,NA (_Lutjanus_),168846,454,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Lutjanus argentiventris,NA (_Lutjanus argentiventris_),168851,1675,76143,erdCalCOFIlrvcntLJtoMA.csv
+Dog snapper,Lutjanus novemfasciatus,Dog snapper (_Lutjanus novemfasciatus_),168890,449,76143,erdCalCOFIlrvcntLJtoMA.csv
+Red snapper,Lutjanus peru,Red snapper (_Lutjanus peru_),168897,455,76143,erdCalCOFIlrvcntLJtoMA.csv
+Louvar,Luvarus imperialis,Louvar (_Luvarus imperialis_),172485,587,76143,erdCalCOFIlrvcntLJtoMA.csv
+Splitfins,Luzonichthys,Splitfins (_Luzonichthys_),643104,1590,76143,erdCalCOFIlrvcntLJtoMA.csv
+Slender sole,Lyopsetta exilis,Slender sole (_Lyopsetta exilis_),172871,943,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Lythrypnus,NA (_Lythrypnus_),171898,798,76143,erdCalCOFIlrvcntLJtoMA.csv
+Bluebanded goby,Lythrypnus dalli,Bluebanded goby (_Lythrypnus dalli_),171899,799,76143,erdCalCOFIlrvcntLJtoMA.csv
+Zebra goby,Lythrypnus zebra,Zebra goby (_Lythrypnus zebra_),171903,800,76143,erdCalCOFIlrvcntLJtoMA.csv
+Barreleye,Macropinna microstoma,Barreleye (_Macropinna microstoma_),162101,53,76143,erdCalCOFIlrvcntLJtoMA.csv
+Slender snipefish,Macroramphosus gracilis,Slender snipefish (_Macroramphosus gracilis_),551496,781,76143,erdCalCOFIlrvcntLJtoMA.csv
+Grenadiers,Macrouridae,Grenadiers (_Macrouridae_),165332,895,76143,erdCalCOFIlrvcntLJtoMA.csv
+Duckbill barracudina,Magnisudis atlantica,Duckbill barracudina (_Magnisudis atlantica_),644691,318,76143,erdCalCOFIlrvcntLJtoMA.csv
+Redside blenny,Malacoctenus hubbsi,Redside blenny (_Malacoctenus hubbsi_),638573,898,76143,erdCalCOFIlrvcntLJtoMA.csv
+Loosejaws,Malacosteinae,Loosejaws (_Malacosteinae_),622320,150,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Margrethia obtusirostra,NA (_Margrethia obtusirostra_),622694,1123,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Maurolicinae,NA (_Maurolicinae_),622314,1115,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Maurolicus,NA (_Maurolicus_),162186,99,76143,erdCalCOFIlrvcntLJtoMA.csv
+NA,Maurolicus muelleri,NA (_Maurolicus muelleri_),162187,98,76143,erdCalCOFIlrvcntLJtoMA.csv
+Halfmoon,Medialuna californiensis,Halfmoon (_Medialuna californiensis_),169522,666,28373,erdCalCOFIlrvcntMBtoMO.csv
+NA,Melamphaes,NA (_Melamphaes_),166093,398,28306,erdCalCOFIlrvcntMBtoMO.csv
+Highsnout bigscale,Melamphaes lugubris,Highsnout bigscale (_Melamphaes lugubris_),166094,396,28306,erdCalCOFIlrvcntMBtoMO.csv
+Little bigscale,Melamphaes parvus,Little bigscale (_Melamphaes parvus_),649666,397,28306,erdCalCOFIlrvcntMBtoMO.csv
+NA,Melamphaes simus,NA (_Melamphaes simus_),166103,399,28306,erdCalCOFIlrvcntMBtoMO.csv
+Bigscales,Melamphaidae,Bigscales (_Melamphaidae_),166092,395,28306,erdCalCOFIlrvcntMBtoMO.csv
+NA,Melanocetus,NA (_Melanocetus_),164612,984,28306,erdCalCOFIlrvcntMBtoMO.csv
+Blackdevil,Melanocetus johnsoni,Blackdevil (_Melanocetus johnsoni_),164613,989,28306,erdCalCOFIlrvcntMBtoMO.csv
+NA,Melanolagus bericoides,NA (_Melanolagus bericoides_),623332,1090,28306,erdCalCOFIlrvcntMBtoMO.csv
+Midwater eelpout,Melanostigma pammelas,Midwater eelpout (_Melanostigma pammelas_),165295,890,28306,erdCalCOFIlrvcntMBtoMO.csv
+Scaleless dragonfishes,Melanostomiinae,Scaleless dragonfishes (_Melanostomiinae_),622318,130,28440,erdCalCOFIlrvcntMBtoMO.csv
+NA,Menticirrhus,NA (_Menticirrhus_),169273,617,28440,erdCalCOFIlrvcntMBtoMO.csv
+California corbina,Menticirrhus undulatus,California corbina (_Menticirrhus undulatus_),169280,620,28440,erdCalCOFIlrvcntMBtoMO.csv
+Hakes,Merlucciidae,Hakes (_Merlucciidae_),164789,900,28440,erdCalCOFIlrvcntMBtoMO.csv
+Dwarf hake,Merluccius,Dwarf hake (_Merluccius_),164790,899,28306,erdCalCOFIlrvcntMBtoMO.csv
+NA,Merluccius gayi,NA (_Merluccius gayi_),164799,902,28440,erdCalCOFIlrvcntMBtoMO.csv
+Pacific hake or whiting,Merluccius productus,Pacific hake or whiting (_Merluccius productus_),164792,901,28306,erdCalCOFIlrvcntMBtoMO.csv
+Midwater grenadier,Mesobius berryi,Midwater grenadier (_Mesobius berryi_),623139,1305,28440,erdCalCOFIlrvcntMBtoMO.csv
+Wormfishes,Microdesmidae,Wormfishes (_Microdesmidae_),172161,844,28306,erdCalCOFIlrvcntMBtoMO.csv
+NA,Microdesmus,NA (_Microdesmus_),172163,809,28306,erdCalCOFIlrvcntMBtoMO.csv
+Spotside wormfish,Microdesmus suttkusi,Spotside wormfish (_Microdesmus suttkusi_),637630,2167,28440,erdCalCOFIlrvcntMBtoMO.csv
+Pacific tomcod,Microgadus proximus,Pacific tomcod (_Microgadus proximus_),164719,906,28440,erdCalCOFIlrvcntMBtoMO.csv
+NA,Micropogonias,NA (_Micropogonias_),169282,2550,28440,erdCalCOFIlrvcntMBtoMO.csv
+NA,Microspathodon,NA (_Microspathodon_),170115,649,28440,erdCalCOFIlrvcntMBtoMO.csv
+Dusky pencilsmelt,Microstoma,Dusky pencilsmelt (_Microstoma_),162093,58,28440,erdCalCOFIlrvcntMBtoMO.csv
+Dover sole,Microstomus pacificus,Dover sole (_Microstomus pacificus_),172887,946,28306,erdCalCOFIlrvcntMBtoMO.csv
+NA,Microstomus pacificus,NA (_Microstomus pacificus_),NA,NA,1,erdCalCOFIlrvcntMBtoMO.csv
+Ribbontails,Mirapinnidae,Ribbontails (_Mirapinnidae_),162809,350,28440,erdCalCOFIlrvcntMBtoMO.csv
+Ocean sunfish,Mola mola,Ocean sunfish (_Mola mola_),173414,400,28374,erdCalCOFIlrvcntMBtoMO.csv
+Filefishes,Monacanthidae,Filefishes (_Monacanthidae_),203428,393,28306,erdCalCOFIlrvcntMBtoMO.csv
+NA,Monolene,NA (_Monolene_),172785,937,28440,erdCalCOFIlrvcntMBtoMO.csv
+Asaedai flounder,Monolene asaedai,Asaedai flounder (_Monolene asaedai_),616592,2278,28440,erdCalCOFIlrvcntMBtoMO.csv
+Codlings,Moridae,Codlings (_Moridae_),164670,909,28440,erdCalCOFIlrvcntMBtoMO.csv
+NA,Mugil,NA (_Mugil_),170334,481,76143,erdCalCOFIlrvcntMPtoNA.csv
+Striped mullet,Mugil cephalus,Striped mullet (_Mugil cephalus_),170335,629,76143,erdCalCOFIlrvcntMPtoNA.csv
+White mullet,Mugil curema,White mullet (_Mugil curema_),170336,630,76143,erdCalCOFIlrvcntMPtoNA.csv
+Mullets,Mugilidae,Mullets (_Mugilidae_),170333,480,76143,erdCalCOFIlrvcntMPtoNA.csv
+Goatfishes,Mullidae,Goatfishes (_Mullidae_),169406,460,76143,erdCalCOFIlrvcntMPtoNA.csv
+Morays,Muraenidae,Morays (_Muraenidae_),161160,370,76143,erdCalCOFIlrvcntMPtoNA.csv
+Longfin lanternfish,Diogenichthys atlanticus,Longfin lanternfish (_Diogenichthys atlanticus_),162676,239,76143,erdCalCOFIlrvcntDHtoEC.csv
+Panama lanternfish,Benthosema panamense,Panama lanternfish (_Benthosema panamense_),623748,217,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Myctophiformes,NA (_Myctophiformes_),162368,190,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Myctophum asperum,NA (_Myctophum asperum_),162721,276,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Myctophum lychnobium,NA (_Myctophum lychnobium_),623845,275,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Myctophum obtusirostre,NA (_Myctophum obtusirostre_),623878,271,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Myctophum selenops,NA (_Myctophum selenops_),162724,279,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Myctophum spinosum,NA (_Myctophum spinosum_),162725,1289,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Myctophum,NA (_Myctophum_),162753,274,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Protomyctophum,NA (_Protomyctophum_),162684,289,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Myripristinae,NA (_Myripristinae_),622095,1440,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Myripristis,NA (_Myripristis_),166210,401,76143,erdCalCOFIlrvcntMPtoNA.csv
+Panamic squirrelfish,Myripristis leiognathos,Panamic squirrelfish (_Myripristis leiognathos_),633885,407,76143,erdCalCOFIlrvcntMPtoNA.csv
+Pacific worm eel,Myrophis vafer,Pacific worm eel (_Myrophis vafer_),161454,392,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Nannobrachium,NA (_Nannobrachium_),623699,261,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Nannobrachium achirus,NA (_Nannobrachium achirus_),623742,278,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Nannobrachium bristori,NA (_Nannobrachium bristori_),623849,268,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Nannobrachium hawaiiensis,NA (_Nannobrachium hawaiiensis_),623853,269,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Nannobrachium idostigma,NA (_Nannobrachium idostigma_),623743,262,76143,erdCalCOFIlrvcntMPtoNA.csv
+Pinpoint lampfish,Nannobrachium regale,Pinpoint lampfish (_Nannobrachium regale_),623744,259,76143,erdCalCOFIlrvcntMPtoNA.csv
+Broadfin lampfish,Nannobrachium ritteri,Broadfin lampfish (_Nannobrachium ritteri_),623745,260,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Nannobrachium sp (cf nigrum),NA (_Nannobrachium sp (cf nigrum)_),623856,1270,76143,erdCalCOFIlrvcntMPtoNA.csv
+NA,Nansenia,NA (_Nansenia_),162058,61,76143,erdCalCOFIlrvcntMPtoNA.csv
+Bluethroat argentine,Nansenia candida,Bluethroat argentine (_Nansenia candida_),162059,62,76143,erdCalCOFIlrvcntMPtoNA.csv
+Stout argentine,Nansenia crassa,Stout argentine (_Nansenia crassa_),623630,63,76143,erdCalCOFIlrvcntMPtoNA.csv
+Unicornfishes,Naso,Unicornfishes (_Naso_),172288,2210,76143,erdCalCOFIlrvcntMPtoNA.csv
+Pilotfish,Naucrates ductor,Pilotfish (_Naucrates ductor_),168742,512,76143,erdCalCOFIlrvcntMPtoNA.csv
+Black snake mackerel,Nealotus tripes,Black snake mackerel (_Nealotus tripes_),172368,592,76143,erdCalCOFIlrvcntNBtoOL.csv
+Roosterfish,Nematistius pectoralis,Roosterfish (_Nematistius pectoralis_),168744,511,76143,erdCalCOFIlrvcntNBtoOL.csv
+Snipe Eels,Nemichthyidae,Snipe Eels (_Nemichthyidae_),161612,329,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Nemichthys,NA (_Nemichthys_),161621,364,76143,erdCalCOFIlrvcntNBtoOL.csv
+Brown snipe eel,Nemichthys scolopaceus,Brown snipe eel (_Nemichthys scolopaceus_),161624,365,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Neoclinus,NA (_Neoclinus_),171477,838,76143,erdCalCOFIlrvcntNBtoOL.csv
+Sarcastic fringehead,Neoclinus blanchardi,Sarcastic fringehead (_Neoclinus blanchardi_),171478,837,76143,erdCalCOFIlrvcntNBtoOL.csv
+Yellowfin fringehead,Neoclinus stephensae,Yellowfin fringehead (_Neoclinus stephensae_),171479,839,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Neoconger vermiformis,NA (_Neoconger vermiformis_),635484,344,76143,erdCalCOFIlrvcntNBtoOL.csv
+Black gemfish,Nesiarchus nasutus,Black gemfish (_Nesiarchus nasutus_),172370,2230,76143,erdCalCOFIlrvcntNBtoOL.csv
+Duckbill Eels,Nettastomatidae,Duckbill Eels (_Nettastomatidae_),161301,356,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Nezumia,NA (_Nezumia_),165393,894,76143,erdCalCOFIlrvcntNBtoOL.csv
+Loosetooth parrotfish,Nicholsina denticulata,Loosetooth parrotfish (_Nicholsina denticulata_),614667,1910,76143,erdCalCOFIlrvcntNBtoOL.csv
+"Flotsamfishes, driftfishes",Nomeidae,"Flotsamfishes, driftfishes (_Nomeidae_)",172535,520,76143,erdCalCOFIlrvcntNBtoOL.csv
+Man-of-war fish,Nomeus gronovii,Man-of-war fish (_Nomeus gronovii_),172554,521,76143,erdCalCOFIlrvcntNBtoOL.csv
+Topside lampfish,Notolychnus valdiviae,Topside lampfish (_Notolychnus valdiviae_),162729,281,76143,erdCalCOFIlrvcntNBtoOL.csv
+Roundnose lanternfish,Centrobranchus nigroocellatus,Roundnose lanternfish (_Centrobranchus nigroocellatus_),162732,221,152286,erdCalCOFIlrvcntCDtoCH.csv|erdCalCOFIlrvcntCtoCE.csv
+Patchwork lampfish,Notoscopelus resplendens,Patchwork lampfish (_Notoscopelus resplendens_),162654,283,76143,erdCalCOFIlrvcntNBtoOL.csv
+Silverside,Odontesthes regia,Silverside (_Odontesthes regia_),630683,1360,76143,erdCalCOFIlrvcntNBtoOL.csv
+Pygmy poacher,Odontopyxis trispinosa,Pygmy poacher (_Odontopyxis trispinosa_),167460,762,76143,erdCalCOFIlrvcntNBtoOL.csv
+Batfishes,Ogcocephalidae,Batfishes (_Ogcocephalidae_),164573,998,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Oligocottus,NA (_Oligocottus_),167332,749,76143,erdCalCOFIlrvcntNBtoOL.csv
+Tidepool sculpin,Oligocottus maculosus,Tidepool sculpin (_Oligocottus maculosus_),167333,753,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Oligocottus snyderi,NA (_Oligocottus snyderi_),167335,1528,76143,erdCalCOFIlrvcntNBtoOL.csv
+Leatherjackets,Oligoplites,Leatherjackets (_Oligoplites_),168672,513,76143,erdCalCOFIlrvcntNBtoOL.csv
+Yellowtail leatherjacket,Oligoplites saurus,Yellowtail leatherjacket (_Oligoplites saurus_),168673,498,76143,erdCalCOFIlrvcntNBtoOL.csv
+NA,Omosudis lowei,NA (_Omosudis lowei_),162522,331,76143,erdCalCOFIlrvcntOMtoOX.csv
+Dreamers,Oneirodes,Dreamers (_Oneirodes_),164629,999,76143,erdCalCOFIlrvcntOMtoOX.csv
+Dreamers,Oneirodidae,Dreamers (_Oneirodidae_),164625,991,76143,erdCalCOFIlrvcntOMtoOX.csv
+Snake Eels,Ophichthidae,Snake Eels (_Ophichthidae_),161419,375,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Ophichthus,NA (_Ophichthus_),161458,377,76143,erdCalCOFIlrvcntOMtoOX.csv
+Yellow snake eel,Ophichthus zophochir,Yellow snake eel (_Ophichthus zophochir_),161469,376,76143,erdCalCOFIlrvcntOMtoOX.csv
+Cusk-eels,Ophidiidae,Cusk-eels (_Ophidiidae_),164807,870,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Ophidiiformes,NA (_Ophidiiformes_),553139,869,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Ophidion,NA (_Ophidion_),164839,786,76143,erdCalCOFIlrvcntOMtoOX.csv
+Basketweave cusk-eel,Ophidion scrippsae,Basketweave cusk-eel (_Ophidion scrippsae_),164856,871,76143,erdCalCOFIlrvcntOMtoOX.csv
+Panamic fanged blenny,Ophioblennius steindachneri,Panamic fanged blenny (_Ophioblennius steindachneri_),636462,868,76143,erdCalCOFIlrvcntOMtoOX.csv
+Lingcod,Ophiodon elongatus,Lingcod (_Ophiodon elongatus_),167116,720,76143,erdCalCOFIlrvcntOMtoOX.csv
+Jawfishes,Opisthognathidae,Jawfishes (_Opisthognathidae_),645316,543,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Opisthonema,NA (_Opisthonema_),161747,16,76143,erdCalCOFIlrvcntOMtoOX.csv
+Snubnose sculpin,Orthonopias triacis,Snubnose sculpin (_Orthonopias triacis_),167388,734,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Orthopristis,NA (_Orthopristis_),169076,2500,76143,erdCalCOFIlrvcntOMtoOX.csv
+Smelts,Osmeridae,Smelts (_Osmeridae_),162028,45,76143,erdCalCOFIlrvcntOMtoOX.csv
+Boxfishes,Ostraciidae,Boxfishes (_Ostraciidae_),173235,414,76143,erdCalCOFIlrvcntOMtoOX.csv
+Spotted boxfish,Ostracion meleagris,Spotted boxfish (_Ostracion meleagris_),173252,416,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Oxycheilinus,NA (_Oxycheilinus_),613121,1875,76143,erdCalCOFIlrvcntOMtoOX.csv
+Senorita,Oxyjulis californica,Senorita (_Oxyjulis californica_),170597,639,76143,erdCalCOFIlrvcntOMtoOX.csv
+Painted greenling,Oxylebius pictus,Painted greenling (_Oxylebius pictus_),167118,730,76143,erdCalCOFIlrvcntOMtoOX.csv
+Shortwing flyingfish,Oxyporhamphus micropterus,Shortwing flyingfish (_Oxyporhamphus micropterus_),165520,181,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Oxyurichthys,NA (_Oxyurichthys_),171945,2140,76143,erdCalCOFIlrvcntOMtoOX.csv
+NA,Parabothus,NA (_Parabothus_),172822,2280,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Paraclinus,NA (_Paraclinus_),171427,874,76143,erdCalCOFIlrvcntOYtoPI.csv
+Reef finspot,Paraclinus integripinnis,Reef finspot (_Paraclinus integripinnis_),171432,861,76143,erdCalCOFIlrvcntOYtoPI.csv
+California conger,Paraconger californiensis,California conger (_Paraconger californiensis_),635695,361,76143,erdCalCOFIlrvcntOYtoPI.csv
+Kelp and sand basses,Paralabrax,Kelp and sand basses (_Paralabrax_),167830,431,76143,erdCalCOFIlrvcntOYtoPI.csv
+Kelp bass,Paralabrax clathratus,Kelp bass (_Paralabrax clathratus_),167832,429,76143,erdCalCOFIlrvcntOYtoPI.csv
+Barred sand bass,Paralabrax nebulifer,Barred sand bass (_Paralabrax nebulifer_),167834,432,76143,erdCalCOFIlrvcntOYtoPI.csv
+Barradcudinas,Paralepididae,Barradcudinas (_Paralepididae_),162463,310,76143,erdCalCOFIlrvcntOYtoPI.csv
+Lefteye flounders and sanddabs,Paralichthyidae,Lefteye flounders and sanddabs (_Paralichthyidae_),553179,919,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Paralichthys,NA (_Paralichthys_),172734,934,76143,erdCalCOFIlrvcntOYtoPI.csv
+California halibut,Paralichthys californicus,California halibut (_Paralichthys californicus_),172743,932,76143,erdCalCOFIlrvcntOYtoPI.csv
+Pacific creolefish,Paranthias colonus,Pacific creolefish (_Paranthias colonus_),551113,453,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Parapercis,NA (_Parapercis_),170958,1956,76143,erdCalCOFIlrvcntOYtoPI.csv
+Redspotted sandpech,Parapercis schauinslandi,Redspotted sandpech (_Parapercis schauinslandi_),633892,1960,76143,erdCalCOFIlrvcntOYtoPI.csv
+Sailfin flyingfish,Parexocoetus brachypterus,Sailfin flyingfish (_Parexocoetus brachypterus_),165522,1395,76143,erdCalCOFIlrvcntOYtoPI.csv
+Thornback sculpin,Paricelinus hopliticus,Thornback sculpin (_Paricelinus hopliticus_),167338,750,76143,erdCalCOFIlrvcntOYtoPI.csv
+English sole,Parophrys vetulus,English sole (_Parophrys vetulus_),172921,948,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Parvilux boschmai,NA (_Parvilux boschmai_),623860,285,76143,erdCalCOFIlrvcntOYtoPI.csv
+Giant lampfish,Parvilux ingens,Giant lampfish (_Parvilux ingens_),162771,286,76143,erdCalCOFIlrvcntOYtoPI.csv
+Pacific butterfish,Peprilus simillimus,Pacific butterfish (_Peprilus simillimus_),172565,531,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Perciformes,NA (_Perciformes_),167640,423,76143,erdCalCOFIlrvcntOYtoPI.csv
+Stripedfin flounder,Perissias taeniopterus,Stripedfin flounder (_Perissias taeniopterus_),616165,935,76143,erdCalCOFIlrvcntOYtoPI.csv
+Gunnels,Pholidae,Gunnels (_Pholidae_),171632,848,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Pholis spp.,NA (_Pholis spp._),171637,2008,76143,erdCalCOFIlrvcntOYtoPI.csv
+Lightfishes,Phosichthyidae,Lightfishes (_Phosichthyidae_),622313,1140,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Photonectes,NA (_Photonectes_),162295,139,76143,erdCalCOFIlrvcntOYtoPI.csv
+Slender suckerfish,Phtheirichthys lineatus,Slender suckerfish (_Phtheirichthys lineatus_),168578,436,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Physiculus,NA (_Physiculus_),164678,908,76143,erdCalCOFIlrvcntOYtoPI.csv
+Hundred-fathom codling,Physiculus rastrelliger,Hundred-fathom codling (_Physiculus rastrelliger_),164681,910,76143,erdCalCOFIlrvcntOYtoPI.csv
+Sandperches,Pinguipedidae,Sandperches (_Pinguipedidae_),553226,1950,76143,erdCalCOFIlrvcntOYtoPI.csv
+NA,Plagiotremus,NA (_Plagiotremus_),171206,2070,76143,erdCalCOFIlrvcntPLtoPO.csv
+Starry flounder,Platichthys stellatus,Starry flounder (_Platichthys stellatus_),172893,949,76143,erdCalCOFIlrvcntPLtoPO.csv
+Bluebarred prickleback,Plectobranchus evides,Bluebarred prickleback (_Plectobranchus evides_),171592,849,76143,erdCalCOFIlrvcntPLtoPO.csv
+Righteyed Flounders,Pleuronectidae,Righteyed Flounders (_Pleuronectidae_),172859,940,76143,erdCalCOFIlrvcntPLtoPO.csv
+NA,Pleuronectiformes,NA (_Pleuronectiformes_),172702,915,76143,erdCalCOFIlrvcntPLtoPO.csv
+Turbots,Pleuronichthys,Turbots (_Pleuronichthys_),172922,954,76143,erdCalCOFIlrvcntPLtoPO.csv
+C-O turbot,Pleuronichthys coenosus,C-O turbot (_Pleuronichthys coenosus_),172923,951,76143,erdCalCOFIlrvcntPLtoPO.csv
+Curlfin turbot,Pleuronichthys decurrens,Curlfin turbot (_Pleuronichthys decurrens_),172924,952,76143,erdCalCOFIlrvcntPLtoPO.csv
+Spotted turbot,Pleuronichthys ritteri,Spotted turbot (_Pleuronichthys ritteri_),172925,953,76143,erdCalCOFIlrvcntPLtoPO.csv
+Hornyhead turbot,Pleuronichthys verticalis,Hornyhead turbot (_Pleuronichthys verticalis_),172926,955,76143,erdCalCOFIlrvcntPLtoPO.csv
+Threadfin,Polydactylus,Threadfin (_Polydactylus_),170446,1725,76143,erdCalCOFIlrvcntPLtoPO.csv
+Blue bobo,Polydactylus approximans,Blue bobo (_Polydactylus approximans_),170449,631,76143,erdCalCOFIlrvcntPLtoPO.csv
+Yellow bobo,Polydactylus opercularis,Yellow bobo (_Polydactylus opercularis_),170452,632,76143,erdCalCOFIlrvcntPLtoPO.csv
+Bleeding Wrasse,Polylepion cruentum,Bleeding Wrasse (_Polylepion cruentum_),614109,643,76143,erdCalCOFIlrvcntPLtoPO.csv
+Threadfins,Polynemidae,Threadfins (_Polynemidae_),170445,490,76143,erdCalCOFIlrvcntPLtoPO.csv
+Angelfishes,Pomacanthidae,Angelfishes (_Pomacanthidae_),553237,1770,76143,erdCalCOFIlrvcntPLtoPO.csv
+Damselfishes,Pomacentridae,Damselfishes (_Pomacentridae_),170044,625,76143,erdCalCOFIlrvcntPLtoPO.csv
+NA,Pomadasys,NA (_Pomadasys_),169091,458,76143,erdCalCOFIlrvcntPLtoPO.csv
+NA,Pontinus,NA (_Pontinus_),166798,671,76143,erdCalCOFIlrvcntPLtoPO.csv
+Speckled scorpionfish,Pontinus sierra,Speckled scorpionfish (_Pontinus sierra_),644371,672,76143,erdCalCOFIlrvcntPLtoPO.csv
+NA,Porichthys,NA (_Porichthys_),164413,821,76143,erdCalCOFIlrvcntPLtoPO.csv
+NA,Poromitra,NA (_Poromitra_),166107,404,76143,erdCalCOFIlrvcntPLtoPO.csv
+Crested bigscale,Poromitra crassiceps,Crested bigscale (_Poromitra crassiceps_),166108,405,76143,erdCalCOFIlrvcntPLtoPO.csv
+NA,Poromitra megalops,NA (_Poromitra megalops_),166110,406,76143,erdCalCOFIlrvcntPLtoPO.csv
+Bigeyes,Priacanthidae,Bigeyes (_Priacanthidae_),168176,440,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Prionotus,NA (_Prionotus_),166973,756,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Common searobin,Prionotus ruscarius,Common searobin (_Prionotus ruscarius_),166993,758,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Lumptail searobin,Prionotus stephanophrys,Lumptail searobin (_Prionotus stephanophrys_),166995,757,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Popeye catalufa,Pristigenys serrula,Popeye catalufa (_Pristigenys serrula_),168192,441,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Prognichthys,NA (_Prognichthys_),165523,189,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Sailor flyingfish,Prognichthys sealei,Sailor flyingfish (_Prognichthys sealei_),165528,1398,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Tringa flyingfish,Prognichthys tringa,Tringa flyingfish (_Prognichthys tringa_),645264,168,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Pronotogrammus,NA (_Pronotogrammus_),167839,457,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Threadfin bass,Pronotogrammus multifasciatus,Threadfin bass (_Pronotogrammus multifasciatus_),167841,428,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Northern flashlightfish,Protomyctophum thompsoni,Northern flashlightfish (_Protomyctophum thompsoni_),162687,287,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Pearly lanternfish,Myctophum nitidulum,Pearly lanternfish (_Myctophum nitidulum_),162726,273,76143,erdCalCOFIlrvcntMPtoNA.csv
+Slender lanternfish,Hygophum reinhardtii,Slender lanternfish (_Hygophum reinhardtii_),623875,252,76143,erdCalCOFIlrvcntHJtoID.csv
+NA,Psenes,NA (_Psenes_),172555,523,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Psenes arafurensis,NA (_Psenes arafurensis_),172560,528,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Freckled driftfish,Psenes cyanophrys,Freckled driftfish (_Psenes cyanophrys_),172556,529,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Psenes maculatus,NA (_Psenes maculatus_),172557,533,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Bluefin driftfish (blackrag),Psenes pellucidus,Bluefin driftfish (blackrag) (_Psenes pellucidus_),172558,525,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Psenes sio,NA (_Psenes sio_),642597,524,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Sand sole,Psettichthys melanostictus,Sand sole (_Psettichthys melanostictus_),172928,958,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Pseudamiops,NA (_Pseudamiops_),168312,1640,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Robust blacksmelt,Pseudobathylagus milleri,Robust blacksmelt (_Pseudobathylagus milleri_),623626,66,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Pseudocheilinus,NA (_Pseudocheilinus_),170628,1890,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Pacific reef bass,Pseudogramma thaumasium,Pacific reef bass (_Pseudogramma thaumasium_),643392,1595,76143,erdCalCOFIlrvcntPPtoPZ.csv
+NA,Pseudoscopelus,NA (_Pseudoscopelus_),171093,813,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Blob sculpin,Psychrolutes phrictus,Blob sculpin (_Psychrolutes phrictus_),167414,754,76143,erdCalCOFIlrvcntPPtoPZ.csv
+North Pacific fanfish,Pteraclis aesticola,North Pacific fanfish (_Pteraclis aesticola_),170309,549,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Hover gobies,Ptereleotris,Hover gobies (_Ptereleotris_),171953,806,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Indigo dartfish,Ptereleotris heteroptera,Indigo dartfish (_Ptereleotris heteroptera_),171956,2175,76143,erdCalCOFIlrvcntPPtoPZ.csv
+Shadow goby,Quietula y-cauda,Shadow goby (_Quietula y-cauda_),171910,2130,76143,erdCalCOFIlrvcntQtoSA.csv
+Tapertail,Radiicephalus elongatus,Tapertail (_Radiicephalus elongatus_),615910,386,76143,erdCalCOFIlrvcntQtoSA.csv
+Slim sculpin,Radulinus asprellus,Slim sculpin (_Radulinus asprellus_),167347,752,76143,erdCalCOFIlrvcntQtoSA.csv
+"Ronquils (Bluebanded, Deepwater, Fanged)",Rathbunella,"Ronquils (Bluebanded, Deepwater, Fanged) (_Rathbunella_)",170952,856,76143,erdCalCOFIlrvcntQtoSA.csv
+NA,Rathbunella alleni,NA (_Rathbunella alleni_),170953,857,76143,erdCalCOFIlrvcntQtoSA.csv
+NA,Remora,NA (_Remora_),168568,442,76143,erdCalCOFIlrvcntQtoSA.csv
+Blackeye goby,Rhinogobiops nicholsii,Blackeye goby (_Rhinogobiops nicholsii_),636877,796,76143,erdCalCOFIlrvcntQtoSA.csv
+NA,Rhynchoconger,NA (_Rhynchoconger_),635342,354,76143,erdCalCOFIlrvcntQtoSA.csv
+Bignose nitens,Rhynchoconger nitens,Bignose nitens (_Rhynchoconger nitens_),635725,362,76143,erdCalCOFIlrvcntQtoSA.csv
+NA,Rimicola,NA (_Rimicola_),164465,822,76143,erdCalCOFIlrvcntQtoSA.csv
+Slender clingfish,Rimicola eigenmanni,Slender clingfish (_Rimicola eigenmanni_),164467,819,76143,erdCalCOFIlrvcntQtoSA.csv
+Spotfin croaker,Roncador stearnsii,Spotfin croaker (_Roncador stearnsii_),646515,618,76143,erdCalCOFIlrvcntQtoSA.csv
+Northern ronquil,Ronquilus jordani,Northern ronquil (_Ronquilus jordani_),170951,858,76143,erdCalCOFIlrvcntQtoSA.csv
+Hubb's pearleye,Rosenblattichthys hubbsi,Hubb's pearleye (_Rosenblattichthys hubbsi_),644709,1194,76143,erdCalCOFIlrvcntQtoSA.csv
+Chubby pearleye,Rosenblattichthys volucris,Chubby pearleye (_Rosenblattichthys volucris_),644711,343,76143,erdCalCOFIlrvcntQtoSA.csv
+Roughcheek sculpin,Ruscarius creaseri,Roughcheek sculpin (_Ruscarius creaseri_),167422,743,76143,erdCalCOFIlrvcntQtoSA.csv
+Puget Sound sculpin,Ruscarius meanyi,Puget Sound sculpin (_Ruscarius meanyi_),167424,733,76143,erdCalCOFIlrvcntQtoSA.csv
+Oilfish,Ruvettus pretiosus,Oilfish (_Ruvettus pretiosus_),172364,594,76143,erdCalCOFIlrvcntQtoSA.csv
+NA,Saccopharyngidae,NA (_Saccopharyngidae_),161644,319,76143,erdCalCOFIlrvcntQtoSA.csv
+Whiptail gulper,Saccopharynx lavenbergi,Whiptail gulper (_Saccopharynx lavenbergi_),635769,322,76143,erdCalCOFIlrvcntQtoSA.csv
+NA,Salariinae,NA (_Salariinae_),171124,2030,76143,erdCalCOFIlrvcntQtoSA.csv
+NA,Samariscus,NA (_Samariscus_),172946,2290,76143,erdCalCOFIlrvcntQtoSA.csv
+Pacific bonito,Sarda chiliensis,Pacific bonito (_Sarda chiliensis_),172408,571,76143,erdCalCOFIlrvcntQtoSA.csv
+Striped bonito,Sarda orientalis,Striped bonito (_Sarda orientalis_),172410,572,76143,erdCalCOFIlrvcntQtoSA.csv
+Pacific sardine (pilchard),Sardinops sagax,Pacific sardine (pilchard) (_Sardinops sagax_),161729,19,76143,erdCalCOFIlrvcntQtoSA.csv
+Tinsel squirrelfish,Sargocentron suborbitalis,Tinsel squirrelfish (_Sargocentron suborbitalis_),622127,389,76143,erdCalCOFIlrvcntQtoSA.csv
+Parrotfishes,Scaridae,Parrotfishes (_Scaridae_),170809,650,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scartichthys,NA (_Scartichthys_),636246,877,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scarus,NA (_Scarus_),613149,651,75512,erdCalCOFIlrvcntSBtoSC.csv
+Croakers,Sciaenidae,Croakers (_Sciaenidae_),169237,610,75512,erdCalCOFIlrvcntSBtoSC.csv
+Pacific mackerel (chub mackerel),Scomber japonicus,Pacific mackerel (chub mackerel) (_Scomber japonicus_),172412,574,75512,erdCalCOFIlrvcntSBtoSC.csv
+Sauries,Scomberesocidae,Sauries (_Scomberesocidae_),165607,165,75512,erdCalCOFIlrvcntSBtoSC.csv
+Atlantic saury,Scomberesox saurus,Atlantic saury (_Scomberesox saurus_),165612,191,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scomberomorus,NA (_Scomberomorus_),172434,577,75512,erdCalCOFIlrvcntSBtoSC.csv
+Pacific sierra,Scomberomorus sierra,Pacific sierra (_Scomberomorus sierra_),172440,578,75512,erdCalCOFIlrvcntSBtoSC.csv
+Mackerels,Scombridae,Mackerels (_Scombridae_),172398,560,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scombroidei,NA (_Scombroidei_),172353,2219,75512,erdCalCOFIlrvcntSBtoSC.csv
+Black mackerel,Scombrolabrax heterolepis,Black mackerel (_Scombrolabrax heterolepis_),172366,2220,75512,erdCalCOFIlrvcntSBtoSC.csv
+Pearleyes,Scopelarchidae,Pearleyes (_Scopelarchidae_),162548,335,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scopelarchoides nicholsi,NA (_Scopelarchoides nicholsi_),644696,342,75512,erdCalCOFIlrvcntSBtoSC.csv
+Pearleyes,Scopelarchus,Pearleyes (_Scopelarchus_),162553,338,75512,erdCalCOFIlrvcntSBtoSC.csv
+Blackbelly pearleye,Scopelarchus analis,Blackbelly pearleye (_Scopelarchus analis_),162555,339,75512,erdCalCOFIlrvcntSBtoSC.csv
+Staring pearleye,Scopelarchus guentheri,Staring pearleye (_Scopelarchus guentheri_),162561,340,75512,erdCalCOFIlrvcntSBtoSC.csv
+Bigfin pearleye,Scopelarchus michaelsarsi,Bigfin pearleye (_Scopelarchus michaelsarsi_),162558,1196,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scopelengys,NA (_Scopelengys_),162776,306,75512,erdCalCOFIlrvcntSBtoSC.csv
+Pacific blackchin,Scopelengys tristis,Pacific blackchin (_Scopelengys tristis_),162777,305,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scopeloberyx,NA (_Scopeloberyx_),166112,1410,75512,erdCalCOFIlrvcntSBtoSC.csv
+Longjaw bigscale,Scopeloberyx robustus,Longjaw bigscale (_Scopeloberyx robustus_),182909,409,75512,erdCalCOFIlrvcntSBtoSC.csv
+Twospine bigscale,Scopelogadus mizolepis bispinosus,Twospine bigscale (_Scopelogadus mizolepis bispinosus_),182911,412,75512,erdCalCOFIlrvcntSBtoSC.csv
+Paperbones,Scopelosaurus,Paperbones (_Scopelosaurus_),162565,196,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scopelosaurus hoedti,NA (_Scopelosaurus hoedti_),162570,1203,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scopelosaurus hubbsi,NA (_Scopelosaurus hubbsi_),644826,1205,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scopelosaurus smithi,NA (_Scopelosaurus smithi_),668632,1204,75512,erdCalCOFIlrvcntSBtoSC.csv
+NA,Scorpaena,NA (_Scorpaena_),166811,676,75512,erdCalCOFIlrvcntSBtoSC.csv
+California scorpionfish (sculpin),Scorpaena guttata,California scorpionfish (sculpin) (_Scorpaena guttata_),166827,678,75512,erdCalCOFIlrvcntSBtoSC.csv
+Cabezon,Scorpaenichthys marmoratus,Cabezon (_Scorpaenichthys marmoratus_),692068,736,75512,erdCalCOFIlrvcntSBtoSC.csv
+Scorpionfishes,Scorpaenidae,Scorpionfishes (_Scorpaenidae_),166704,670,75512,erdCalCOFIlrvcntSBtoSC.csv
+Rainbow scorpionfish,Scorpaenodes xyris,Rainbow scorpionfish (_Scorpaenodes xyris_),166864,675,75512,erdCalCOFIlrvcntSBtoSC.csv
+Rockfishes,Sebastes,Rockfishes (_Sebastes_),166705,683,76143,erdCalCOFIlrvcntSDtoSI.csv
+Aurora rockfish,Sebastes aurora,Aurora rockfish (_Sebastes aurora_),166709,688,76143,erdCalCOFIlrvcntSDtoSI.csv
+Splitnose rockfish,Sebastes diploproa,Splitnose rockfish (_Sebastes diploproa_),166716,689,76143,erdCalCOFIlrvcntSDtoSI.csv
+Chilipepper,Sebastes goodei,Chilipepper (_Sebastes goodei_),166722,693,76143,erdCalCOFIlrvcntSDtoSI.csv
+Shortbelly rockfish,Sebastes jordani,Shortbelly rockfish (_Sebastes jordani_),166725,684,76143,erdCalCOFIlrvcntSDtoSI.csv
+Cow rockfish (cowcod),Sebastes levis,Cow rockfish (cowcod) (_Sebastes levis_),166754,685,76143,erdCalCOFIlrvcntSDtoSI.csv
+Mexican rockfish,Sebastes macdonaldi,Mexican rockfish (_Sebastes macdonaldi_),166755,687,76143,erdCalCOFIlrvcntSDtoSI.csv
+Blackgill rockfish,Sebastes melanostomus,Blackgill rockfish (_Sebastes melanostomus_),166728,694,76143,erdCalCOFIlrvcntSDtoSI.csv
+Bocaccio,Sebastes paucispinis,Bocaccio (_Sebastes paucispinis_),166733,686,76143,erdCalCOFIlrvcntSDtoSI.csv
+Stripetail rockfish,Sebastes saxicola,Stripetail rockfish (_Sebastes saxicola_),166741,682,76143,erdCalCOFIlrvcntSDtoSI.csv
+Thornyheads,Sebastolobus,Thornyheads (_Sebastolobus_),166782,707,76143,erdCalCOFIlrvcntSDtoSI.csv
+Shortspine thornyhead,Sebastolobus alascanus,Shortspine thornyhead (_Sebastolobus alascanus_),166783,708,76143,erdCalCOFIlrvcntSDtoSI.csv
+Longspine thornyhead,Sebastolobus altivelis,Longspine thornyhead (_Sebastolobus altivelis_),166784,709,76143,erdCalCOFIlrvcntSDtoSI.csv
+Bluestriped sea chub,Sectator ocyurus,Bluestriped sea chub (_Sectator ocyurus_),169527,665,76143,erdCalCOFIlrvcntSDtoSI.csv
+Bigeye scad,Selar crumenophthalmus,Bigeye scad (_Selar crumenophthalmus_),168677,518,76143,erdCalCOFIlrvcntSDtoSI.csv
+"Moonfishes, lookdowns",Selene,"Moonfishes, lookdowns (_Selene_)",168679,505,76143,erdCalCOFIlrvcntSDtoSI.csv
+Pacific moonfish,Selene peruviana,Pacific moonfish (_Selene peruviana_),168683,492,76143,erdCalCOFIlrvcntSDtoSI.csv
+California sheephead,Semicossyphus pulcher,California sheephead (_Semicossyphus pulcher_),170744,641,76143,erdCalCOFIlrvcntSDtoSI.csv
+"Amberjacks, yellowtails",Seriola,"Amberjacks, yellowtails (_Seriola_)",168688,516,76143,erdCalCOFIlrvcntSDtoSI.csv
+Yellowtail,Seriola lalandi,Yellowtail (_Seriola lalandi_),168695,517,76143,erdCalCOFIlrvcntSDtoSI.csv
+Fortune jack,Seriola peruana,Fortune jack (_Seriola peruana_),641997,519,76143,erdCalCOFIlrvcntSDtoSI.csv
+Almaco jack,Seriola rivoliana,Almaco jack (_Seriola rivoliana_),168691,515,76143,erdCalCOFIlrvcntSDtoSI.csv
+Queenfish,Seriphus politus,Queenfish (_Seriphus politus_),169362,613,76143,erdCalCOFIlrvcntSDtoSI.csv
+Sea Basses,Serranidae,Sea Basses (_Serranidae_),167674,425,76143,erdCalCOFIlrvcntSDtoSI.csv
+NA,Serraninae,NA (_Serraninae_),643089,430,76143,erdCalCOFIlrvcntSDtoSI.csv
+NA,Serranus,NA (_Serranus_),167849,434,76143,erdCalCOFIlrvcntSDtoSI.csv
+Bean's sawtooth eel,Serrivomer beanii,Bean's sawtooth eel (_Serrivomer beanii_),635762,1050,76143,erdCalCOFIlrvcntSDtoSI.csv
+Sawtooth eel,Serrivomer sector,Sawtooth eel (_Serrivomer sector_),161609,374,76143,erdCalCOFIlrvcntSDtoSI.csv
+Sawtooth Eels,Serrivomeridae,Sawtooth Eels (_Serrivomeridae_),161603,378,76143,erdCalCOFIlrvcntSDtoSI.csv
+NA,Sigmops,NA (_Sigmops_),622342,1125,76143,erdCalCOFIlrvcntSDtoSI.csv
+NA,Sigmops bathyphilum,NA (_Sigmops bathyphilum_),622361,1128,76143,erdCalCOFIlrvcntSDtoSI.csv
+Ebeling's fangjaw,Sigmops ebelingi,Ebeling's fangjaw (_Sigmops ebelingi_),622492,82,76143,erdCalCOFIlrvcntSDtoSI.csv
+Elongated bristlemouth fish,Sigmops elongatum,Elongated bristlemouth fish (_Sigmops elongatum_),622493,1126,76143,erdCalCOFIlrvcntSDtoSI.csv
+Slender fangjaw,Sigmops gracile,Slender fangjaw (_Sigmops gracile_),622491,1127,76143,erdCalCOFIlrvcntSDtoSI.csv
+Porgies,Sparidae,Porgies (_Sparidae_),169180,605,76143,erdCalCOFIlrvcntSJtoST.csv
+Giant Cusk-eel,Spectrunculus grandis,Giant Cusk-eel (_Spectrunculus grandis_),622862,1320,76143,erdCalCOFIlrvcntSJtoST.csv
+NA,Sphoeroides,NA (_Sphoeroides_),173289,2301,76143,erdCalCOFIlrvcntSJtoST.csv
+NA,Sphyraena,NA (_Sphyraena_),170425,487,76143,erdCalCOFIlrvcntSJtoST.csv
+Pacific barracuda (California barracuda),Sphyraena argentea,Pacific barracuda (California barracuda) (_Sphyraena argentea_),170426,486,76143,erdCalCOFIlrvcntSJtoST.csv
+Mexican barracuda,Sphyraena ensis,Mexican barracuda (_Sphyraena ensis_),170437,488,76143,erdCalCOFIlrvcntSJtoST.csv
+NA,Stegastes,NA (_Stegastes_),613171,624,76143,erdCalCOFIlrvcntSJtoST.csv
+Cortez damselfish,Stegastes rectifraenum,Cortez damselfish (_Stegastes rectifraenum_),615080,627,76143,erdCalCOFIlrvcntSJtoST.csv
+NA,Stemonosudis,NA (_Stemonosudis_),162501,316,76143,erdCalCOFIlrvcntSJtoST.csv
+NA,Stemonosudis elegans,NA (_Stemonosudis elegans_),644829,1241,76143,erdCalCOFIlrvcntSJtoST.csv
+Sharpchin barracudina,Stemonosudis macrura,Sharpchin barracudina (_Stemonosudis macrura_),644731,315,76143,erdCalCOFIlrvcntSJtoST.csv
+Northern lampfish,Stenobrachius leucopsarus,Northern lampfish (_Stenobrachius leucopsarus_),162664,292,76143,erdCalCOFIlrvcntSJtoST.csv
+Garnet lampfish,Stenobrachius nannochir,Garnet lampfish (_Stenobrachius nannochir_),162665,293,76143,erdCalCOFIlrvcntSJtoST.csv
+Hatchetfishes,Sternoptychidae,Hatchetfishes (_Sternoptychidae_),162212,100,76143,erdCalCOFIlrvcntSJtoST.csv
+Dollar hatchetfishes,Sternoptyx,Dollar hatchetfishes (_Sternoptyx_),162226,107,76143,erdCalCOFIlrvcntSJtoST.csv
+Longspine hatchetfish,Sternoptyx diaphana,Longspine hatchetfish (_Sternoptyx diaphana_),162227,106,76143,erdCalCOFIlrvcntSJtoST.csv
+Pricklebacks,Stichaeidae,Pricklebacks (_Stichaeidae_),171554,846,76143,erdCalCOFIlrvcntSJtoST.csv
+NA,Stomias,NA (_Stomias_),162286,138,76143,erdCalCOFIlrvcntSJtoST.csv
+Blackbelly dragonfish,Stomias atriventer,Blackbelly dragonfish (_Stomias atriventer_),162290,121,76143,erdCalCOFIlrvcntSJtoST.csv
+Dragonfishes,Stomiidae,Dragonfishes (_Stomiidae_),162282,1150,76143,erdCalCOFIlrvcntSJtoST.csv
+NA,Stomiiformes,NA (_Stomiiformes_),553138,109,76143,erdCalCOFIlrvcntSJtoST.csv
+Scaly dragonfishes,Stomiinae,Scaly dragonfishes (_Stomiinae_),622317,120,76143,erdCalCOFIlrvcntSJtoST.csv
+California needlefish,Strongylura exilis,California needlefish (_Strongylura exilis_),165555,164,76143,erdCalCOFIlrvcntSJtoST.csv
+Tube-eyes,Stylephorus chordatus,Tube-eyes (_Stylephorus chordatus_),166360,1297,76143,erdCalCOFIlrvcntSJtoST.csv
+Hideous barracudina,Sudis atrox,Hideous barracudina (_Sudis atrox_),162505,321,55217,erdCalCOFIlrvcntSUtoTE.csv
+NA,Syacium,NA (_Syacium_),172790,914,55217,erdCalCOFIlrvcntSUtoTE.csv
+Oval flounder,Syacium ovale,Oval flounder (_Syacium ovale_),616481,927,54885,erdCalCOFIlrvcntSUtoTE.csv
+NA,Symbolophorus,NA (_Symbolophorus_),162666,298,55217,erdCalCOFIlrvcntSUtoTE.csv
+Slendertail lanternfish,Gonichthys tenuiculus,Slendertail lanternfish (_Gonichthys tenuiculus_),623813,249,76143,erdCalCOFIlrvcntGOtoHA.csv
+Spinycheek lanternfish,Benthosema fibulatum,Spinycheek lanternfish (_Benthosema fibulatum_),623747,1280,76143,erdCalCOFIlrvcntBCEtoBZ.csv
+NA,Symphurus,NA (_Symphurus_),173061,966,54885,erdCalCOFIlrvcntSUtoTE.csv
+California tonguefish,Symphurus atricaudus,California tonguefish (_Symphurus atricaudus_),616607,967,54885,erdCalCOFIlrvcntSUtoTE.csv
+Chocolate tonguefish,Symphurus callopterus,Chocolate tonguefish (_Symphurus callopterus_),616485,970,55217,erdCalCOFIlrvcntSUtoTE.csv
+Elongate tonguefish,Symphurus elongatus,Elongate tonguefish (_Symphurus elongatus_),616489,964,54885,erdCalCOFIlrvcntSUtoTE.csv
+NA,Symphysanodon,NA (_Symphysanodon_),167907,1610,55217,erdCalCOFIlrvcntSUtoTE.csv
+Dragonet,Synchiropus atrilabiatus,Dragonet (_Synchiropus atrilabiatus_),642601,830,55217,erdCalCOFIlrvcntSUtoTE.csv
+Manacled sculpin,Synchirus gilli,Manacled sculpin (_Synchirus gilli_),167365,1540,55217,erdCalCOFIlrvcntSUtoTE.csv
+Pipefishes,Syngnathidae,Pipefishes (_Syngnathidae_),166443,790,54885,erdCalCOFIlrvcntSUtoTE.csv
+NA,Syngnathus,NA (_Syngnathus_),166444,791,55217,erdCalCOFIlrvcntSUtoTE.csv
+Kelp pipefish,Syngnathus californiensis,Kelp pipefish (_Syngnathus californiensis_),166457,792,55217,erdCalCOFIlrvcntSUtoTE.csv
+Bay pipefish,Syngnathus leptorhynchus,Bay pipefish (_Syngnathus leptorhynchus_),166462,788,55217,erdCalCOFIlrvcntSUtoTE.csv
+Lizardfishes,Synodontidae,Lizardfishes (_Synodontidae_),162374,204,54885,erdCalCOFIlrvcntSUtoTE.csv
+NA,Synodus,NA (_Synodus_),162375,206,55217,erdCalCOFIlrvcntSUtoTE.csv
+Twospot lizardfish,Synodus binotatus,Twospot lizardfish (_Synodus binotatus_),162384,1210,55217,erdCalCOFIlrvcntSUtoTE.csv
+NA,Synodus evermanni,NA (_Synodus evermanni_),644732,209,54885,erdCalCOFIlrvcntSUtoTE.csv
+Sauro lizardfish,Synodus lacertinus,Sauro lizardfish (_Synodus lacertinus_),644734,202,55217,erdCalCOFIlrvcntSUtoTE.csv
+California lizardfish,Synodus lucioceps,California lizardfish (_Synodus lucioceps_),162378,207,54885,erdCalCOFIlrvcntSUtoTE.csv
+Shorthead lizardfish,Synodus scituliceps,Shorthead lizardfish (_Synodus scituliceps_),644735,203,55217,erdCalCOFIlrvcntSUtoTE.csv
+Sechura lizardfish,Synodus sechurae,Sechura lizardfish (_Synodus sechurae_),644736,208,54885,erdCalCOFIlrvcntSUtoTE.csv
+NA,Taaningichthys minimus,NA (_Taaningichthys minimus_),162742,258,55217,erdCalCOFIlrvcntSUtoTE.csv
+Longfin dragonfish,Tactostoma macropus,Longfin dragonfish (_Tactostoma macropus_),162247,142,55217,erdCalCOFIlrvcntSUtoTE.csv
+Pacific bigscale pomfret,Taractichthys steindachneri,Pacific bigscale pomfret (_Taractichthys steindachneri_),170313,548,55217,erdCalCOFIlrvcntSUtoTE.csv
+Thickhead lanternfish,Hygophum atratum,Thickhead lanternfish (_Hygophum atratum_),162695,251,76143,erdCalCOFIlrvcntHJtoID.csv
+Bigeye squaretail,Tetragonurus atlanticus,Bigeye squaretail (_Tetragonurus atlanticus_),172581,547,54885,erdCalCOFIlrvcntSUtoTE.csv
+Smalleye squaretail,Tetragonurus cuvieri,Smalleye squaretail (_Tetragonurus cuvieri_),172580,546,55217,erdCalCOFIlrvcntSUtoTE.csv
+Puffer,Tetraodontidae,Puffer (_Tetraodontidae_),NA,NA,1,erdCalCOFIlrvcntSUtoTE.csv
+Puffers,Tetraodontidae,Puffers (_Tetraodontidae_),173283,420,54885,erdCalCOFIlrvcntSUtoTE.csv
+Leaflike eel,Thalassenchelys coheni,Leaflike eel (_Thalassenchelys coheni_),636187,403,76143,erdCalCOFIlrvcntTFtoU.csv
+NA,Thalassoma,NA (_Thalassoma_),170567,640,76143,erdCalCOFIlrvcntTFtoU.csv
+Walleye pollock,Theragra chalcogramma,Walleye pollock (_Theragra chalcogramma_),164722,907,76143,erdCalCOFIlrvcntTFtoU.csv
+NA,Thunnus,NA (_Thunnus_),172418,580,76143,erdCalCOFIlrvcntTFtoU.csv
+Yellowfin tuna,Thunnus albacares,Yellowfin tuna (_Thunnus albacares_),172423,581,76143,erdCalCOFIlrvcntTFtoU.csv
+Snakefish,Trachinocephalus myops,Snakefish (_Trachinocephalus myops_),162420,1217,76143,erdCalCOFIlrvcntTFtoU.csv
+Pompano,Trachinotus,Pompano (_Trachinotus_),168707,1654,76143,erdCalCOFIlrvcntTFtoU.csv
+Pacific permit,Trachinotus kennedyi,Pacific permit (_Trachinotus kennedyi_),168713,494,76143,erdCalCOFIlrvcntTFtoU.csv
+Paloma pompano,Trachinotus paitensis,Paloma pompano (_Trachinotus paitensis_),168714,493,76143,erdCalCOFIlrvcntTFtoU.csv
+Gafftopsail pompano,Trachinotus rhodopus,Gafftopsail pompano (_Trachinotus rhodopus_),168715,497,76143,erdCalCOFIlrvcntTFtoU.csv
+Ribbonfishes,Trachipteridae,Ribbonfishes (_Trachipteridae_),166339,380,76143,erdCalCOFIlrvcntTFtoU.csv
+NA,Trachipterus,NA (_Trachipterus_),166340,381,76143,erdCalCOFIlrvcntTFtoU.csv
+King-of-the-salmon,Trachipterus altivelis,King-of-the-salmon (_Trachipterus altivelis_),166341,382,76143,erdCalCOFIlrvcntTFtoU.csv
+Tapertail ribbonfish,Trachipterus fukuzakii,Tapertail ribbonfish (_Trachipterus fukuzakii_),166343,383,76143,erdCalCOFIlrvcntTFtoU.csv
+Jack mackerel,Trachurus symmetricus,Jack mackerel (_Trachurus symmetricus_),168586,514,76143,erdCalCOFIlrvcntTFtoU.csv
+Cutlassfishes,Trichiuridae,Cutlassfishes (_Trichiuridae_),172378,595,76143,erdCalCOFIlrvcntTFtoU.csv
+Pacific cutlassfish,Trichiurus lepturus,Pacific cutlassfish (_Trichiurus lepturus_),172385,598,76143,erdCalCOFIlrvcntTFtoU.csv
+Searobins,Triglidae,Searobins (_Triglidae_),166972,755,76143,erdCalCOFIlrvcntTFtoU.csv
+NA,Triphoturus,NA (_Triphoturus_),162765,303,76143,erdCalCOFIlrvcntTFtoU.csv
+Mexican lampfish,Triphoturus mexicanus,Mexican lampfish (_Triphoturus mexicanus_),162766,301,76143,erdCalCOFIlrvcntTFtoU.csv
+Highseas lampfish,Triphoturus nigrescens,Highseas lampfish (_Triphoturus nigrescens_),623873,302,76143,erdCalCOFIlrvcntTFtoU.csv
+NA,Triphoturus oculeum,NA (_Triphoturus oculeum_),649728,304,76143,erdCalCOFIlrvcntTFtoU.csv
+Agujon needlefish,Tylosurus pacificus,Agujon needlefish (_Tylosurus pacificus_),645131,1370,76143,erdCalCOFIlrvcntTFtoU.csv
+Blind goby,Typhlogobius californiensis,Blind goby (_Typhlogobius californiensis_),171914,801,76143,erdCalCOFIlrvcntTFtoU.csv
+Constellationfish,Valenciennellus tripunctulatus,Constellationfish (_Valenciennellus tripunctulatus_),162203,91,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Vinciguerria,NA (_Vinciguerria_),162192,92,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Vinciguerria attenuata,NA (_Vinciguerria attenuata_),162193,1143,76143,erdCalCOFIlrvcntVtoZ.csv
+Panama lightfish,Vinciguerria lucetia,Panama lightfish (_Vinciguerria lucetia_),182865,93,76143,erdCalCOFIlrvcntVtoZ.csv
+Oceanic lightfish,Vinciguerria nimbaria,Oceanic lightfish (_Vinciguerria nimbaria_),162194,96,76143,erdCalCOFIlrvcntVtoZ.csv
+Highseas lightfish,Vinciguerria poweriae,Highseas lightfish (_Vinciguerria poweriae_),162195,94,76143,erdCalCOFIlrvcntVtoZ.csv
+Bigeye lightfish,Woodsia nonsuchae,Bigeye lightfish (_Woodsia nonsuchae_),162211,95,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Xeneretmus,NA (_Xeneretmus_),167466,3000,76143,erdCalCOFIlrvcntVtoZ.csv
+Blackedge poacher,Xeneretmus latifrons,Blackedge poacher (_Xeneretmus latifrons_),167467,764,76143,erdCalCOFIlrvcntVtoZ.csv
+Smootheye poacher,Xeneretmus leiops,Smootheye poacher (_Xeneretmus leiops_),167469,765,76143,erdCalCOFIlrvcntVtoZ.csv
+Salema,Xenistius californiensis,Salema (_Xenistius californiensis_),169118,452,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Xyrichtys,NA (_Xyrichtys_),613036,638,76143,erdCalCOFIlrvcntVtoZ.csv
+Razorfish,Xyrichtys mundiceps,Razorfish (_Xyrichtys mundiceps_),614509,642,76143,erdCalCOFIlrvcntVtoZ.csv
+Fantail sole,Xystreurys liolepis,Fantail sole (_Xystreurys liolepis_),172800,936,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Yarella blackfordi,NA (_Yarella blackfordi_),162205,97,76143,erdCalCOFIlrvcntVtoZ.csv
+Spotted batfish,Zalieutes elater,Spotted batfish (_Zalieutes elater_),164598,973,76143,erdCalCOFIlrvcntVtoZ.csv
+Combfishes,Zaniolepididae,Combfishes (_Zaniolepididae_),167126,725,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Zaniolepis,NA (_Zaniolepis_),167127,726,76143,erdCalCOFIlrvcntVtoZ.csv
+Shortspine combfish,Zaniolepis frenata,Shortspine combfish (_Zaniolepis frenata_),167129,727,76143,erdCalCOFIlrvcntVtoZ.csv
+Longspine combfish,Zaniolepis latipinnis,Longspine combfish (_Zaniolepis latipinnis_),167128,728,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Zenion,NA (_Zenion_),166276,1460,76143,erdCalCOFIlrvcntVtoZ.csv
+Eelpouts,Zoarcidae,Eelpouts (_Zoarcidae_),165215,860,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,Zoarcoidei,NA (_Zoarcoidei_),165214,843,76143,erdCalCOFIlrvcntVtoZ.csv
+Scalloped ribbonfish,Zu cristatus,Scalloped ribbonfish (_Zu cristatus_),166353,384,76143,erdCalCOFIlrvcntVtoZ.csv
+NA,NA,NA (_NA_),NA,NA,2,erdCalCOFIlrvcntCPtoDE.csv|erdCalCOFIlrvcntGOtoHA.csv
