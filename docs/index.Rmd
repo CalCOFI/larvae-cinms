@@ -3,7 +3,9 @@ title: "CalCOFI Analysis"
 subtitle: "for CINMS/MBNMS infographics using ERDDAP"
 output:
   html_document:
+    keep_md: true
     toc: true
+    toc_depth: 4
     toc_float: true
     code_folding: hide
 editor_options: 
@@ -89,47 +91,6 @@ get_nms_ply <- function(nms){
 
 ## Reference CINMS Condition Report figures
 
-### S.LR.12.5. anchovy, sardine, squid in bongo nets
-
-```{r}
-figs <- list(
-  folder = "State - Living Resources (S.LR.Q#.#)",
-  figure = c(
-    "S.LR.12.5a_Anchovy_CalCOFI.tif", 
-    "S.LR.12.5b_Sardine_CalCOFI.tif", 
-    "S.LR.12.5c_Squid_CalCOFI.tif"))
-
-figs_beg <- path(dir_img, figs$folder, figs$figure)
-figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
-
-walk2(figs_beg, figs_end, convert_fig)
-
-knitr::include_graphics(figs_end)
-```
-
-Figure S.LR.12.5. Relative abundance of Northern anchovy Engraulis mordax (top), Pacific sardine Sardinops sagax (middle), and market squid Doryteuthis opalescens (bottom) in bongo nets deployed during spring California Cooperative Oceanic Fisheries Investigations (CalCOFI) cruises at sites in the Channel Islands National Marine Sanctuary (CINMS) region from 1978–2015 (except squid collected since 1997). Horizontal lines show the mean (dashed line) ± 1.0 standard deviation (solid lines) over the full time series. Symbol at upper right indicates whether data over the last five years (green shaded areas) had a positive trend (⬈), a negative trend (⬊), or no trend (↔). Symbol at lower right indicates whether the mean over the past five years was greater than (+), less than (–), or within 1 standard deviation (●) of the mean of the full time series. It is important to note that a mean abundance of zero does not mean that the species is completely absent from the waters off of southern California, but that it was not collected at any sites around CINMS during the spring survey that year (sampling locations shown in Appendix F: Figure App.F.12.17). Data source: CalCOFI; Figure: A. Thompson/NMFS SWFSC
-
-### S.LR.15.3 cool/warm-water icthyoplankton, spp richness/diversity
-
-Larval fish in nets
-
-```{r}
-figs <- list(
-  folder = "State - Living Resources (S.LR.Q#.#)",
-  figure = c(
-    "S.LR.15.3a_Cool-water.tif", 
-    "S.LR.15.3b_warm-water.tif", 
-    "S.LR.15.3c_species_richness.tif", 
-    "S.LR.15.3d_Simpson_diversity.tif"))
-
-figs_beg <- path(dir_img, figs$folder, figs$figure)
-figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
-walk2(figs_beg, figs_end, convert_fig)
-knitr::include_graphics(figs_end)
-```
-
-Figure S.LR.15.3. (Top) Mean abundance of (left) cool-water associated and (right) warm-water associated ichthyoplankton (larval fishes) collected in net samples during CalCOFI cruises in spring and summer at sites in the Channel Islands National Marine Sanctuary region from 1978 to 2015. (Bottom) The average species richness (left) and species diversity (right) in each net sample is shown for the entire time series. Gini-Simpson diversity (1-λ form) is a measure of the equitability of species in a sample. When individuals are well-distributed among species, Gini-Simpson diversity is high. Graph format is explained in Figure S.LR.12.4. The warm water event also influenced the relative abundance of warm-water species at higher trophic levels including predatory fish, seabirds, and marine mammals. For example, there were increased sightings of species not usually observe
-
 ### App.F.12.17 map of net samples
 
 ```{r}
@@ -183,7 +144,7 @@ walk2(figs_beg, figs_end, convert_fig)
 knitr::include_graphics(figs_end)
 ```
 
-Figure App.F.12.19. Relative abundance of key forage groups collected in net samples during spring CalCOFI cruises at sites in
+**Figure App.F.12.19.** Relative abundance of key forage groups collected in net samples during spring CalCOFI cruises at sites in
 the Channel Islands National Marine Sanctuary (CINMS) region from 1978 to 2015. Forage is grouped by high (left panel) and
 medium (right panel) energy density. High energy taxa are Pacific sardines, northern anchovies, and and Myctophids. Medium-
 energy taxa are Pacific hake, shortbelly rockfish, and sanddabs. Although sardine were completely absent in net samples from 2011
@@ -206,11 +167,47 @@ walk2(figs_beg, figs_end, convert_fig)
 knitr::include_graphics(figs_end)
 ```
 
-Figure App.F.12.20. Mean abundance of market squid (Doryteuthis opalescens) collected in net samples during CalCOFI cruises at
+**Figure App.F.12.20.** Mean abundance of market squid (Doryteuthis opalescens) collected in net samples during CalCOFI cruises at
 only sites in the Channel Islands National Marine Sanctuary region (top) and all sites over the Southern California Shelf (bottom) from 1997 to 2015 (sampling locations shown in Figure App.F12.17). Symbols on graph explained in the caption of Figure App.F12.18. Data source: CalCOFI; Figure: A. Thompson/NOAA
   
  
 
+
+### App.F.15.5 larval fish, warm- & cold-
+
+```{r}
+figs <- list(
+  folder = "App F: LR (AppF.Q#.#)/AppendixF_Q15",
+  figure = c(
+    "App.F.15.5.CalCOFI_water_associated.tiff"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+
+walk2(figs_beg, figs_end, convert_fig)
+
+knitr::include_graphics(figs_end)
+```
+
+**Figure App.F.15.5.** Relative abundance of cool-water (top panels) and warm-water (bottom panels) associated ichthyoplankton (fish larvae) groups collected in net samples during spring CalCOFI cruises at sites in the Channel Islands National Marine Sanctuary (CINMS) region (left panels) and over the Southern California Shelf (right panels) from 1978 to 2015. Sampling sites are shown on Figure App.F.12.17. Symbols on the graph are explained in the caption for Figure App.F.12.18. Data source: CalCOFI; Figure: A. Thompson/NOAA
+
+### App.F.15.6 larval fish richness & diversity
+
+```{r}
+figs <- list(
+  folder = "App F: LR (AppF.Q#.#)/AppendixF_Q15",
+  figure = c(
+    "App.F.15.6.CalCOFI_diversity.tiff"))
+
+figs_beg <- path(dir_img, figs$folder, figs$figure)
+figs_end <- here(glue("docs/figures/{path_ext_remove(basename(figs_beg))}.png"))
+
+walk2(figs_beg, figs_end, convert_fig)
+
+knitr::include_graphics(figs_end)
+```
+
+**Figure App.F.15.6.** Mean species richness (top panels) and mean Gini-Simpson diversity (bottom panels) of fish larvae (ichthyoplankton) collected in net samples during spring CalCOFI cruises at sites in the Channel Islands National Marine Sanctuary (CINMS) region (left panels) and over the Southern California Shelf (right panels) from 1978 to 2015. Species richness is the number of species present in a net sample. Gini-Simpson diversity (1-λ form) takes into account the number of species present, as well as the relative abundance of each species. Species richness tends to increase in El Niño years due to influx of central Pacific species to the shelf. Gini-Simpson diversity is high when individuals are well-distributed among species suggesting that the 2015 spike in richness was not due to rare species. Sampling sites are shown on Figure App.F.12.17. Symbols on the graph are explained in the caption for Figure App.F.12.18. Data source: CalCOFI; Figure: A. Thompson/NOAA
 
 ## Extract data from ERDDAP
 
@@ -578,7 +575,7 @@ for (i in 1:length(grps)){ # i = 1
     
     ply_code <- plys$ply_code[j]
     
-    cat(glue("\n\n#### {grp} in {ply_code} Region\n", trim=F))
+    cat(glue("\n\n\n#### {grp} in {ply_code} Region\n\n", trim=F))
     
     calcofi_plot(
       csv     = here(glue("data/{grp}_{ply_code}.csv")),
@@ -656,7 +653,7 @@ attachDependencies(
     - ☑ California flashlightfish (_Protomyctophum crockeri_)
   - ☐ **Small Plankton** species per [Figure App.F.12.18]( https://marinebon.org/calcofi-analysis/#appf1218_small_plankton_volume_in_cinmssocal)? See **Metrics** / **Volume** below.
   - [Figure App.F.12.19 key forage groups in CINMS/SoCal](https://marinebon.org/calcofi-analysis/#appf1219_key_forage_groups_in_cinmssocal)
-    - **Hake**
+    - **Hake**: despite using following taxa, don't seem to have any data?
       - Hakes	(_Merlucciidae_)
       - Dwarf hake (_Merluccius_)
       - Pacific hake or whiting	(_Merluccius productus_)
