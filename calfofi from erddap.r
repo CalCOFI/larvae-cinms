@@ -94,7 +94,7 @@ head(data2)
 										
 # pull out squid and incomplete species
 #Combine species into family groups, delete incomplete taxa
-## squid and lobster (palinuridae)
+## squid and lobster (palinuridae) [discarded, since only started late 2000s]
 data2 <- data2[setdiff(names(data2),
                        c('Abraliopsis', 'Abraliopsis.felis','Argonauta','Berryteuthis','Chiroteuthis.calyx', 'Chiroteuthis.spp.','Chtenopteryx.sicula','Cranchia.scabra','Cranchiidae',
                          'Doryteuthis.opalescens','Enoploteuthidae',
@@ -103,10 +103,10 @@ data2 <- data2[setdiff(names(data2),
 						 'Octopodidae','Octopoteuthidae','Octopoteuthis','Octopoteuthis.deletron','Octopus','Ocythoe.tuberculata','Ommastrephes.bartramii','Ommastrephidae',
                          'Onychoteuthis.borealijaponicus','Pterygioteuthis','Pterygioteuthis.gemmata','Pterygioteuthis.giardi','Palinuridae',
                          'Pyroteuthidae','Pyroteuthis.addolux', 'Teuthida','Taoniinae'))]
-
+# [discarded generics]
 data2 <- data2[setdiff(names(data2), c('Unidentified', 'Disintegrated.fish.larvae','Perciformes','Aulorhynchus.flavidus'))]	
 						 
-					 
+# [eels; tried 1951 to present: spp not id to spp levels; lowest taxa cat from beginning]					 
 data2$Anguilliformes1 <- with(data2, Cyema.atrum+Saccopharynx.lavenbergi)
 data2 <- data2[setdiff(names(data2), c('Anguilliformes', 'Zoarcidae' , 'Zoarcidae', 'Leptocephalus.giganteus','Ophichthus.zophochir','Congridae','Cyematidae','Cyema.atrum','Leptocephalus.holti','Saccopharynx.lavenbergi','Eurypharynx.pelecanoides'))]					 
 						 

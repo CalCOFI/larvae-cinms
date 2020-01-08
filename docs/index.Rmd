@@ -369,6 +369,71 @@ mapview(plys_shelf) +
   stns_shelf
 ```
 
+### Prep Temporal filter
+
+Started every month. Now sample 4x/yr, ie once per season. Choose stations based on most spatially complete cruise within a season = most stations sampled. Long-term compare years: choose one season, eg Spring, avg w/in ea yr & ea season. NoData for given year if missing season.
+
+```{r}
+#eurl() # https://upwell.pfeg.noaa.gov/erddap/
+Sys.setenv(RERDDAP_DEFAULT_URL = "https://coastwatch.pfeg.noaa.gov/erddap/")
+#eurl() # https://coastwatch.pfeg.noaa.gov/erddap/
+#servers()
+
+stns <- tabledap("erdCalCOFIstns")
+
+stns <- stns %>% 
+  mutate(
+    cruise_yr = str_sub(cruise, end=4) %>% as.integer(),
+    cruise_mo = str_sub(cruise, start = 5, end=6) %>% as.integer(),
+    time  = as.Date(time),
+    lon   = as.numeric(longitude),
+    lat   = as.numeric(latitude)) %>% 
+  st_as_sf(coords=c("lon", "lat"), crs=4326, remove=F)
+
+# all stations
+stns %>% 
+  group_by(cruise_yr, cruise_mo) %>% 
+  summarize(
+    n = n()) %>% 
+  ggplot(aes(cruise_yr, cruise_mo, size = n)) +
+  geom_point()
+
+# SoCal Shelf
+#plot(stns['cruise'])
+ply <- read_sf(plys_cinms_geo) %>% 
+  filter(ply_code == "SoCal Shelf")
+# mapview(ply)
+
+# stations in SoCal Shelf
+stns_ply <- stns %>% 
+  filter(st_intersects(stns, ply, sparse = F)) #%>% 
+  #plot()
+
+stns_ply_smry <- stns_ply %>% 
+  group_by(cruise, cruise_yr, cruise_mo) %>% 
+  summarize(
+    n_stns = n())
+# stns_ply_smry %>% 
+#   st_drop_geometry() %>% View()
+
+table(stns_ply_smry$cruise_mo)
+#  1  2  3  4  5  6  7  8  9 10 11 12 
+# 46 31 30 51 26 19 43 25 16 37 23 17
+
+stns_ply_smry %>% 
+  filter(
+    cruise_mo %in% c(3,4,5)) %>% 
+  arrange(cruise_yr, desc(n_stns)) %>% 
+  group_by(cruise_yr) %>% 
+  summarize(
+    cruise = first(cruise),
+    n_stns = first(n_stns),
+    month  = first(cruise_mo)) %>% 
+  st_drop_geometry() #%>% 
+  #View()
+```
+
+
 ### Prep Taxa filter
 
 ```{r}

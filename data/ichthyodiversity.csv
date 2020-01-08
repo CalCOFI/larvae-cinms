@@ -1,0 +1,63 @@
+year,index,metric,timeseries,time.series.2
+2004,7.803278689,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2005,9.46969697,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2006,7.3125,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2007,6.263157895,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2008,6.981132075,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2009,6.951612903,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2010,6.238095238,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2011,9.508196721,No. of species,Calcofi ichthyoplankton - spring Species number,CC Spr Spp Rich
+2004,6.515151515,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2005,5.03030303,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2006,5.787878788,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2007,4.348484848,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2008,5.318181818,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2009,6.046153846,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2010,6.727272727,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2011,5.181818182,No. of species,Calcofi ichthyoplankton - summer Species number,CC Sum Spp Rich
+2004,0.733801714,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2005,0.542994718,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2006,0.646987185,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2007,0.4891045,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2008,0.536229866,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2009,0.575578637,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2010,0.693236649,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2011,0.672313284,1-lambda,Calcofi ichthyoplankton - spring Simpson diversity,CC Spr Simp
+2004,0.634735501,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2005,0.551592183,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2006,0.559701927,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2007,0.539742647,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2008,0.59671445,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2009,0.609117446,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2010,0.669906874,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2011,0.62888094,1-lambda,Calcofi ichthyoplankton - summer Simpson diversity,CC Sum Simp
+2004,7.166666667,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2005,6.909090909,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2006,7.222222222,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2007,5.333333333,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2008,5,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2009,4.5,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2010,4.444444444,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2011,5.222222222,No. of species,Oregon ichthyoplankton - spring Species number,OR Spr Spp Rich
+2005,3.25,No. of species,Oregon ichthyoplankton - summer Species number,OR Sum Spp Rich
+2006,2.666666667,No. of species,Oregon ichthyoplankton - summer Species number,OR Sum Spp Rich
+2007,2.111111111,No. of species,Oregon ichthyoplankton - summer Species number,OR Sum Spp Rich
+2008,3.444444444,No. of species,Oregon ichthyoplankton - summer Species number,OR Sum Spp Rich
+2009,2.4,No. of species,Oregon ichthyoplankton - summer Species number,OR Sum Spp Rich
+2010,1.923076923,No. of species,Oregon ichthyoplankton - summer Species number,OR Sum Spp Rich
+2011,1.111111111,No. of species,Oregon ichthyoplankton - summer Species number,OR Sum Spp Rich
+2004,0.532806175,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2005,0.518044577,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2006,0.563990642,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2007,0.626605973,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2008,0.529619846,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2009,0.535855975,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2010,0.405787212,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2011,0.527799823,1-lambda,Oregon ichthyoplankton - spring Simpson diversity,OR Spr Simp
+2005,0.485866396,1-lambda,Oregon ichthyoplankton - summer Simpson diversity,OR Sum Simp
+2006,0.632737249,1-lambda,Oregon ichthyoplankton - summer Simpson diversity,OR Sum Simp
+2007,0.54593104,1-lambda,Oregon ichthyoplankton - summer Simpson diversity,OR Sum Simp
+2008,0.468716159,1-lambda,Oregon ichthyoplankton - summer Simpson diversity,OR Sum Simp
+2009,0.5,1-lambda,Oregon ichthyoplankton - summer Simpson diversity,OR Sum Simp
+2010,0.301288673,1-lambda,Oregon ichthyoplankton - summer Simpson diversity,OR Sum Simp
+2011,0.533271605,1-lambda,Oregon ichthyoplankton - summer Simpson diversity,OR Sum Simp
